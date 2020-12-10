@@ -1,0 +1,4 @@
+#contenedor-galeria-contenido > ul {
+  display: grid;
+  grid-template-columns: auto auto;
+}
