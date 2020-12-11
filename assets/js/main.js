@@ -183,10 +183,12 @@
   }
 
   /* 7. data-background */
-       $("[data-background]").each(function () {
-      $(this).css("background-image", "url(" + $(this).attr("data-background") + ")")
-      });
- 
+  $("[data-background]").each(function () {
+    $(this).css(
+      "background-image",
+      "url(" + $(this).attr("data-background") + ")"
+    );
+  });
 
   /* 10. WOW active */
   new WOW().init();
