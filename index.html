@@ -24,6 +24,15 @@
     <link rel="stylesheet" href="assets/css/slick.css" />
     <link rel="stylesheet" href="assets/css/nice-select.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
+
+    <link rel="stylesheet" href="/assets/gallery/css/style-gal.css" />
+    <link rel="stylesheet" href="/assets/gallery/css/tablet-gal.css" media="(min-width: 650px)" />
+    <link rel="stylesheet" href="/assets/gallery/css/desktop-gal.css" media="(min-width: 950px)" />
+    <link
+      rel="stylesheet"
+      href="/assets/gallery/css/desktop2-gal.css"
+      media="(min-width: 1250px)"
+    />
   </head>
 
   <body>
@@ -396,6 +405,99 @@
         </div>
       </section>
       <!-- Blog Area End -->
+
+      <!-- GALLERY START -->
+      <div id="contenedor-galeria">
+        <div id="contenedor-galeria-filtros">
+          <ul>
+            <div class="header-right-btn d-none d-lg-block ml-20">
+              <a href="#" data-filter="all" class="btn header-btn"><li>Todo</li></a>
+            </div>
+            <div class="header-right-btn d-none d-lg-block ml-20">
+              <a href="#" data-filter="monte" class="btn header-btn"><li>Monte</li></a>
+            </div>
+            <div class="header-right-btn d-none d-lg-block ml-20">
+              <a href="#" data-filter="calle" class="btn header-btn"><li>Calle</li></a>
+            </div>
+            <div class="header-right-btn d-none d-lg-block ml-20">
+              <a href="#" data-filter="mar" class="btn header-btn"><li>Mar</li></a>
+            </div>
+            <div class="header-right-btn d-none d-lg-block ml-20">
+              <a href="#" data-filter="presentacion" class="btn header-btn"
+                ><li>Presentacion</li></a
+              >
+            </div>
+          </ul>
+        </div>
+        <div id="contenedor-galeria-contenido">
+          <ul>
+            <li class="galery-content-item" data-cat="monte">
+              <a href="#">
+                <p>Quedada 01/01</p>
+              </a>
+            </li>
+            <li class="galery-content-item" data-cat="monte">
+              <a href="#">
+                <p>Quedada 02/02</p>
+              </a>
+            </li>
+            <li class="galery-content-item" data-cat="monte">
+              <a href="#">
+                <p>Quedada 03/03</p>
+              </a>
+            </li>
+
+            <li class="galery-content-item" data-cat="calle">
+              <a href="#">
+                <p>Quedada 04/04</p>
+              </a>
+            </li>
+            <li class="galery-content-item" data-cat="calle">
+              <a href="#">
+                <p>Quedada 05/05</p>
+              </a>
+            </li>
+            <li class="galery-content-item" data-cat="calle">
+              <a href="#">
+                <p>Quedada 06/06</p>
+              </a>
+            </li>
+
+            <li class="galery-content-item" data-cat="mar">
+              <a href="#">
+                <p>Quedada 07/07</p>
+              </a>
+            </li>
+            <li class="galery-content-item" data-cat="mar">
+              <a href="#">
+                <p>Quedada 08/08</p>
+              </a>
+            </li>
+            <li class="galery-content-item" data-cat="mar">
+              <a href="#">
+                <p>Quedada 09/09</p>
+              </a>
+            </li>
+
+            <li class="galery-content-item" data-cat="presentacion">
+              <a href="#">
+                <p>Quedada 10/10</p>
+              </a>
+            </li>
+            <li class="galery-content-item" data-cat="presentacion">
+              <a href="#">
+                <p>Quedada 11/11</p>
+              </a>
+            </li>
+            <li class="galery-content-item" data-cat="presentacion">
+              <a href="#">
+                <p>Quedada 12/12</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- GALLERY END -->
     </main>
     <footer>
       <div class="footer-wrapper">
@@ -546,5 +648,8 @@
     <script src="./assets/js/main.js"></script>
     <!-- imprescindible -->
     <script src="./assets/js/jquery.backgroundvideo.min.js"></script>
+
+    <!-- Gallery -->
+    <script src="/assets/js/gallery/galeria.js"></script>
   </body>
 </html>
