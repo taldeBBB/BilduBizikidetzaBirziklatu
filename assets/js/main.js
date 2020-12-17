@@ -48,30 +48,23 @@
   function mainSlider() {
     var BasicSlider = $(".slider-active");
     BasicSlider.on("init", function (e, slick) {
-      var $firstAnimatingElements = $(".single-slider:first-child").find(
-        "[data-animation]"
-      );
+      var $firstAnimatingElements = $(".single-slider:first-child").find("[data-animation]");
       doAnimations($firstAnimatingElements);
     });
-    BasicSlider.on(
-      "beforeChange",
-      function (e, slick, currentSlide, nextSlide) {
-        var $animatingElements = $(
-          '.single-slider[data-slick-index="' + nextSlide + '"]'
-        ).find("[data-animation]");
-        doAnimations($animatingElements);
-      }
-    );
+    BasicSlider.on("beforeChange", function (e, slick, currentSlide, nextSlide) {
+      var $animatingElements = $('.single-slider[data-slick-index="' + nextSlide + '"]').find(
+        "[data-animation]"
+      );
+      doAnimations($animatingElements);
+    });
     BasicSlider.slick({
       autoplay: true,
       autoplaySpeed: 8000,
-      dots: true,
+      dots: false,
       fade: true,
       arrows: false,
-      prevArrow:
-        '<button type="button" class="slick-prev"><i class="ti-angle-left"></i></button>',
-      nextArrow:
-        '<button type="button" class="slick-next"><i class="ti-angle-right"></i></button>',
+      prevArrow: '<button type="button" class="slick-prev"><i class="ti-angle-left"></i></button>',
+      nextArrow: '<button type="button" class="slick-next"><i class="ti-angle-right"></i></button>',
       responsive: [
         {
           breakpoint: 1024,
@@ -137,10 +130,8 @@
       speed: 1000,
       autoplay: false,
       arrows: false,
-      prevArrow:
-        '<button type="button" class="slick-prev"><i class="ti-angle-left"></i></button>',
-      nextArrow:
-        '<button type="button" class="slick-next"><i class="ti-angle-right"></i></button>',
+      prevArrow: '<button type="button" class="slick-prev"><i class="ti-angle-left"></i></button>',
+      nextArrow: '<button type="button" class="slick-next"><i class="ti-angle-right"></i></button>',
       slidesToShow: 1,
       slidesToScroll: 1,
       responsive: [
@@ -183,10 +174,9 @@
   }
 
   /* 7. data-background */
-       $("[data-background]").each(function () {
-      $(this).css("background-image", "url(" + $(this).attr("data-background") + ")")
-      });
- 
+  $("[data-background]").each(function () {
+    $(this).css("background-image", "url(" + $(this).attr("data-background") + ")");
+  });
 
   /* 10. WOW active */
   new WOW().init();
