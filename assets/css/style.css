@@ -238,6 +238,18 @@ input:focus::-moz-placeholder {
   -o-transition: 0.4s;
   transition: 0.4s;
 }
+/*sendo añadido form*/
+.fbxrow
+  {
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+  }
+  .lbllpd
+  {
+    padding-left:5px;
+  }
+  /*******************/
 .capitalize {
   text-transform: capitalize;
 }
@@ -5974,7 +5986,6 @@ textarea {
   padding: 0.75rem 1rem;
 }
 
-input[type="checkbox"],
 input[type="radio"] {
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -5988,7 +5999,7 @@ input[type="radio"] {
   z-index: -1;
 }
 
-input[type="checkbox"] + label,
+
 input[type="radio"] + label {
   text-decoration: none;
   -moz-user-select: none;
@@ -6005,7 +6016,7 @@ input[type="radio"] + label {
   margin-bottom: 0;
 }
 
-input[type="checkbox"] + label:before,
+
 input[type="radio"] + label:before {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -6019,7 +6030,7 @@ input[type="radio"] + label:before {
   font-weight: 900;
 }
 
-input[type="checkbox"] + label:before,
+
 input[type="radio"] + label:before {
   border-radius: 4px;
   border: solid 1px;
@@ -6035,14 +6046,11 @@ input[type="radio"] + label:before {
   width: 1.65rem;
 }
 
-input[type="checkbox"]:checked + label:before,
+
 input[type="radio"]:checked + label:before {
   content: "\f00c";
 }
 
-input[type="checkbox"] + label:before {
-  border-radius: 4px;
-}
 
 input[type="radio"] + label:before {
   border-radius: 100%;
