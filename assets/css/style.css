@@ -329,6 +329,12 @@ hr {
   .mb-90 {
     margin-bottom: 30px;
   }
+  .dflex{
+    flex-direction: column;
+  }
+  .dflex .w50{
+    width: 100%;
+  }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .mb-90 {
@@ -3848,6 +3854,7 @@ main {
     padding: 60px 30px 35px 35px;
   }
 }
+
 .blog_details p {
   margin-bottom: 30px;
 }
