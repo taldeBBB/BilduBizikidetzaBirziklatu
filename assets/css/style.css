@@ -238,6 +238,18 @@ input:focus::-moz-placeholder {
   -o-transition: 0.4s;
   transition: 0.4s;
 }
+/*sendo añadido form*/
+.fbxrow
+  {
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+  }
+  .lbllpd
+  {
+    padding-left:5px;
+  }
+  /*******************/
 .capitalize {
   text-transform: capitalize;
 }
@@ -3842,6 +3854,7 @@ main {
     padding: 60px 30px 35px 35px;
   }
 }
+
 .blog_details p {
   margin-bottom: 30px;
 }
