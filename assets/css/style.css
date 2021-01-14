@@ -100,27 +100,65 @@
 [data-opacity="9"]::before {
   opacity: 0.9;
 }
+/* inicio cambios css */
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Tahoma", sans-serif;
   font-weight: normal;
   font-style: normal;
   font-size: 16px;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Montserrat", sans-serif;
-  color: #425140;
+/* header blanco debido a que el verde usado previamente le quitaba importancia al boton 
+también debido a que al quitar el bakcground del logo , la parte blanca también se quitaba */
+header{
+  background:white;
+}
+
+/* background para las diferentes secciones de la pagina */
+/* se va alternando entre blanco, azul pastel y verde pastel para dar un poco de vida con el 
+color a la página */
+div.service-area{
+  background-color:  #c4ffff;
+}
+#fondo{
+  background-color:#b9f3b9; 
+  width:100%
+}
+.home-blog-area{
+  background: #c4ffff;
+}
+.noticia{
+  background: #b9f3b9;
+}
+
+/* estilos para los titulos de la página para diferenciarlos de los del formulario 
+los del formulario son negro para dar una sensación con el negro de más seriedad en comparación 
+con el resto 
+se aprovecha el hecho de que utilizamos el azul en el logo para los titulos */
+.titulo{
+  font-family: "Arial black", sans-serif;
+  color: #0061a9;
   margin-top: 0px;
   font-style: normal;
   font-weight: 500;
   text-transform: normal;
 }
+/* modificación del tamaño ya que era bastante pequeño en comparación del h2 */
+h3{
+  font-size:29px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-family:Arial;
+  color:black;
+  font-weight: 500;
+}
 p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Tahoma", sans-serif;
   color: #10285d;
   font-size: 16px;
   line-height: 30px;
@@ -529,21 +567,19 @@ hr {
 }
 #scrollUp,
 #back-top {
-  position: fixed;
+  background: #09cc7f;
+  height: 50px;
+  width: 50px;
   right: 31px;
   bottom: 18px;
-  border: none;
-  padding: 13px 33px;
-  border-radius: 30px;
-  cursor: pointer;
+  position: fixed;
   color: #fff;
-  display: inline-block;
-  font-size: 15px;
-  transition: 0.6s;
-  box-shadow: 0px 7px 21px 0px rgba(0, 0, 0, 0.12);
-  background-image: linear-gradient(to left, #46c0be, #6dd56f, #46c0be);
-  background-position: right;
-  background-size: 200%;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 48px;
+  border: 2px solid transparent;
+  box-shadow: 0 0 10px 3px rgba(108, 98, 98, 0.2);
 }
 @media (max-width: 575px) {
   #scrollUp,
@@ -2787,11 +2823,7 @@ main {
   margin-bottom: 46px;
   font-size: 15px;
 }
-.support-company-area
-  .support-wrapper
-  .left-content
-  .support-caption
-  p.pera-top {
+.support-company-area .support-wrapper .left-content .support-caption p.pera-top {
   font-size: 18px;
   font-weight: 400;
   color: #425140;
@@ -4483,7 +4515,6 @@ main {
   border-radius: 0px;
   height: 100% !important;
 }
-/*
 .modal-message .modal-dialog {
   position: absolute;
   top: 36%;
@@ -4517,7 +4548,6 @@ main {
 .modal-message .modal-dialog .modal-content .modal-header p {
   display: block;
 }
-*/
 .contact-section {
   padding: 130px 0 100px;
 }
@@ -4772,21 +4802,9 @@ main {
   justify-content: start;
 }
 .overlay2::before {
-  background-image: -moz-linear-gradient(
-    170deg,
-    rgba(34, 34, 34, 0) 0%,
-    #000 100%
-  );
-  background-image: -webkit-linear-gradient(
-    170deg,
-    rgba(34, 34, 34, 0) 0%,
-    #000 100%
-  );
-  background-image: -ms-linear-gradient(
-    170deg,
-    rgba(34, 34, 34, 0) 0%,
-    #000 100%
-  );
+  background-image: -moz-linear-gradient(170deg, rgba(34, 34, 34, 0) 0%, #000 100%);
+  background-image: -webkit-linear-gradient(170deg, rgba(34, 34, 34, 0) 0%, #000 100%);
+  background-image: -ms-linear-gradient(170deg, rgba(34, 34, 34, 0) 0%, #000 100%);
 }
 .barfiller {
   background: -moz-linear-gradient(
@@ -5491,8 +5509,7 @@ del {
   border: 1px solid #f1f1f1;
 }
 .primary-checkbox input:checked + label {
-  background: url(../img/elements/primary-check.png) no-repeat center
-    center/cover;
+  background: url(../img/elements/primary-check.png) no-repeat center center/cover;
   border: none;
 }
 .confirm-checkbox {
@@ -5526,8 +5543,7 @@ del {
   border: 1px solid #f1f1f1;
 }
 .confirm-checkbox input:checked + label {
-  background: url(../img/elements/success-check.png) no-repeat center
-    center/cover;
+  background: url(../img/elements/success-check.png) no-repeat center center/cover;
   border: none;
 }
 .disabled-checkbox {
@@ -5565,8 +5581,7 @@ del {
   z-index: 3;
 }
 .disabled-checkbox input:checked + label {
-  background: url(../img/elements/disabled-check.png) no-repeat center
-    center/cover;
+  background: url(../img/elements/disabled-check.png) no-repeat center center/cover;
   border: none;
 }
 .primary-radio {
@@ -5600,8 +5615,7 @@ del {
   border: 1px solid #f1f1f1;
 }
 .primary-radio input:checked + label {
-  background: url(../img/elements/primary-radio.png) no-repeat center
-    center/cover;
+  background: url(../img/elements/primary-radio.png) no-repeat center center/cover;
   border: none;
 }
 .confirm-radio {
@@ -5635,8 +5649,7 @@ del {
   border: 1px solid #f1f1f1;
 }
 .confirm-radio input:checked + label {
-  background: url(../img/elements/success-radio.png) no-repeat center
-    center/cover;
+  background: url(../img/elements/success-radio.png) no-repeat center center/cover;
   border: none;
 }
 .disabled-radio {
@@ -5674,8 +5687,7 @@ del {
   z-index: 3;
 }
 .disabled-radio input:checked + label {
-  background: url(../img/elements/disabled-radio.png) no-repeat center
-    center/cover;
+  background: url(../img/elements/disabled-radio.png) no-repeat center center/cover;
   border: none;
 }
 .default-select {
