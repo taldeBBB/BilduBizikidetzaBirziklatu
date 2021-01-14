@@ -4485,6 +4485,7 @@ main {
   border-radius: 0px;
   height: 100% !important;
 }
+/*
 .modal-message .modal-dialog {
   position: absolute;
   top: 36%;
@@ -4494,6 +4495,7 @@ main {
   max-width: 500px;
   width: 100%;
 }
+
 .modal-message .modal-dialog .modal-content .modal-header {
   text-align: center;
   display: block;
@@ -4518,6 +4520,7 @@ main {
 .modal-message .modal-dialog .modal-content .modal-header p {
   display: block;
 }
+*/
 .contact-section {
   padding: 130px 0 100px;
 }
