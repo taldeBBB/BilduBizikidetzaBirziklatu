@@ -1697,6 +1697,37 @@ hr {
 .preloader .preloader-circle2 {
   border-top-color: #0078ff;
 }
+
+.imagen1{width:30px; height:30px;}
+.imagen2{width:30px; height:30px;}
+.imagen3{width:30px; height:30px;}
+.imagen4{width:30px; height:30px;}
+
+footer li{color:white;}
+
+#activar ~ .desplegable {display: none;overflow: hidden; }
+#activar:checked ~ .desplegable {display: block;}
+
+#activar2 ~ .desplegable {display: none;overflow: hidden;}
+#activar2:checked ~ .desplegable {display: block;}
+
+h3.h3footer{color:white;}
+.mail{width:30px; height:30px;}
+.dire{width:30px; height:30px; }
+.tlf{width:30px; height:30px; }
+.locali{width:30px; height:30px;}
+
+footer .row1{float:left;margin-bottom:200px;}
+footer .row2{float:right;margin-top:150px;}
+
+.texto{width:100%; display:table; clear:both;}
+
+footer .footer-padding {
+    
+     padding-bottom: 0; 
+}
+
+
 .preloader .preloader-img {
   position: absolute;
   top: 50%;
