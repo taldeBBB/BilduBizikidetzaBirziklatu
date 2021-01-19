@@ -119,17 +119,26 @@ color a la página */
 div.service-area {
   background-color: #c4ffff;
 }
+#contenedor-galeria {
+  margin-top: 4%;
+}
 #fondo {
   background-color: #b9f3b9;
   width: 100%;
 }
-.home-blog-area {
+.support-wrapper {
   background: #c4ffff;
+  width: 100%;
 }
 .noticia {
   background: #b9f3b9;
 }
-
+.noticias-contenedor {
+  margin-top: 4%;
+}
+.fields {
+  margin-top: 4%;
+}
 /* estilos para los titulos de la página para diferenciarlos de los del formulario 
 los del formulario son negro para dar una sensación con el negro de más seriedad en comparación 
 con el resto 
@@ -142,11 +151,19 @@ se aprovecha el hecho de que utilizamos el azul en el logo para los titulos */
   font-weight: 500;
   text-transform: normal;
 }
+.noticias-contenedor h2 {
+  font-size: 28px;
+}
+.noticias-contenedor h3 {
+  color: #09cc7f;
+}
 /* modificación del tamaño ya que era bastante pequeño en comparación del h2 */
 h3 {
   font-size: 29px;
 }
-
+.titfor {
+  font-size: 26px;
+}
 h1,
 h2,
 h3,
@@ -156,6 +173,9 @@ h6 {
   font-family: Arial;
   color: black;
   font-weight: 500;
+}
+footer h3 {
+  font-size: 18px;
 }
 p {
   font-family: "Tahoma", sans-serif;
@@ -2150,7 +2170,7 @@ footer .footer-padding {
   }
 }
 .section-tittle h2 {
-  font-size: 55px;
+  font-size: 48px;
   display: block;
   font-weight: 400;
   line-height: 1.2;
@@ -2158,18 +2178,18 @@ footer .footer-padding {
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .section-tittle h2 {
-    font-size: 41px;
+    font-size: 38px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .section-tittle h2 {
-    font-size: 40px;
+    font-size: 35px;
   }
 }
 @media (max-width: 575px) {
   .section-tittle h2 {
     text-align: left;
-    font-size: 27px;
+    font-size: 24px;
   }
 }
 .section-bg {
