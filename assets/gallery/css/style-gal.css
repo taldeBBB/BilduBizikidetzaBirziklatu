@@ -13,6 +13,11 @@ ul {
   height: 100%;
 }
 
+#contenedor-galeria {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 #contenedor-galeria-filtros,
 #contenedor-galeria-contenido {
   display: flex;
