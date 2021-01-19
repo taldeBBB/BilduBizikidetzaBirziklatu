@@ -1,5 +1,9 @@
 /* Slider */
 
+#patrocionadores-container {
+  margin-bottom: 50px;
+}
+
 #patrocionadores-container .slick-slide {
   margin: 0px 20px;
 }
