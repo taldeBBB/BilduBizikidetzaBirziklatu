@@ -101,3 +101,11 @@
 #patrocionadores-container .slick-arrow.slick-hidden {
   display: none;
 }
+
+.patro-div-style {
+  width: 150px !important;
+  height: 150px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
