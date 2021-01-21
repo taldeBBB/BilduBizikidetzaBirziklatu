@@ -133,9 +133,6 @@ div.service-area {
 .noticia {
   background: #b9f3b9;
 }
-.noticias-contenedor {
-  margin-top: 4%;
-}
 .fields {
   margin-top: 4%;
 }
@@ -2949,7 +2946,7 @@ main {
 @media (max-width: 575px) {
   .support-company-area .support-wrapper .left-content {
     width: 100%;
-    padding-left: 5px;/*cambiado por marta 14-1-2021    de 30 a 5*/
+    padding-left: 5px; /*cambiado por marta 14-1-2021    de 30 a 5*/
   }
 }
 .support-company-area .support-wrapper .left-content .support-caption {
@@ -6327,6 +6324,6 @@ ul.actions.special {
 .linkA:hover {
   color: #09cc7f;
 }
-.faqh3{
+.faqh3 {
   font-size: 24px;
 }

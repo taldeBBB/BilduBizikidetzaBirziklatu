@@ -3,12 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Environmental</title>
+    <title>Bildu Bizikidetza Birziklatu</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="manifest" href="site.webmanifest" />
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico" />
-    <!-- La cuqui estuvo aqui -->
     <!-- CSS here -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
@@ -73,10 +72,10 @@
                           <li><a href="what-do.html">Quedadas</a></li>
                           <li>
                             <a href="about.html">Nosotros</a>
-                            <ul class="submenu">
+                            <ul id="navigation-submenu" class="submenu">
                               <li><a href="blog.html">Sobre nosotros</a></li>
                               <li>
-                                <a href="blog_details.html">Contactanos</a>
+                                <a href="blog_details.html">Contáctanos</a>
                               </li>
                             </ul>
                           </li>
@@ -87,7 +86,7 @@
                     </div>
                     <!-- Header-btn -->
                     <div class="header-right-btn d-none d-lg-block ml-20">
-                      <a href="contact.html" class="btn header-btn">Haz una donación</a>
+                      <a id="header-haz-donacion" href="contact.html" class="btn header-btn">Haz una donación</a>
                     </div>
                   </div>
                 </div>
@@ -133,7 +132,7 @@
                         data-animation="fadeInUp"
                         data-delay=".8s"
 
-                        >Unete a nosotros</a
+                        >Únete a nosotros</a
 
                       >
                     </div>
@@ -305,7 +304,7 @@
               <p>Al participar con Bildu Bizikidetza Birziklatu estás ayudando a la limpieza del entorno natural de nuestra bella provincia.</p>
               <p>Si eres una persona activa, con amor por la naturaleza y con ganas de ayudar, tu sitio está con nosotros.</p>
               <p>Puedes formar tu propio grupo con amigos o familiares, o unirte a cualquiera de los grupos que participen en las salidas, en las que encontrarás gente con inquietudes como las tuyas, buen rollo y solidaridad.</p>
-              <p>Tu participación marca la diferencia. Nuestro entorno nota la diferencia. </p>
+              <p>Tu participación marca la diferencia. Nuestro entorno nota la diferencia.</p>
           </div>
           <div class="w50">
               <img src="assets/img/coop.jpg" class="fotocoop">
@@ -334,7 +333,7 @@
               <br/>
               <div class="field mb-90">
 				<div class="fbxrow">
-					<input type="checkbox" id="lpd" value="acepto" name="chklpd" required><label for="chklpd" class="lbllpd"> Acepto permitir a Bildu Bizikidetza Birziklatu almacenar y procesar mis datos personales.*</label>
+					<input type="checkbox" id="lpd" value="acepto" name="chklpd" required><label for="chklpd" class="lbllpd">Acepto permitir a Bildu Bizikidetza Birziklatu almacenar y procesar mis datos personales.*</label>
 				</div>
                   <ul class="actions special">
                       <li><input class="boton-verde" type="submit" name="submit" id="submit" value="¡Me Apunto!" /></li>
@@ -402,7 +401,7 @@
                         <br/>
                         <div class="field mb-90">
 							<div class="fbxrow">
-								<input type="checkbox" id="lpd" value="acepto" name="chklpd" required><label for="chklpd" class="lbllpd"> Acepto permitir a Bildu Bizikidetza Birziklatu almacenar y procesar mis datos personales.*</label>
+								<input type="checkbox" id="lpd" value="acepto" name="chklpd" required><label for="chklpd" class="lbllpd">Acepto permitir a Bildu Bizikidetza Birziklatu almacenar y procesar mis datos personales.*</label>
 							</div>
                             <ul class="actions special">
                                 <li><input class="boton-verde" type="submit" name="submit" id="submit" value="¡TIENES MI APOYO!" /></li>
@@ -423,7 +422,7 @@
   <div class="dflex mb5">
       <div class="w50">
           <p>Conviértete en Socio de Bildu Bizikidetza Birziklatu.</p>
-          <p>Desde un like en redes sociales a materiales para las recogidas en las salidas, desde ponernos en contacto con otras asociaciones para colaborar a indicarnos nuevos lugares donde salir.</p>
+          <p>Desde un like en redes sociales a materiales para las recogidas en las salidas, hasta ponernos en contacto con otras asociaciones para colaborar a indicarnos nuevos lugares donde salir.</p>
           <p>También puedes ayudarnos haciéndote Socio Colaborador de Bildu Bizikidetza Birziklatu. Tu aportación nos ayudará a sufragar los gastos de materiales para las salidas.</p>
           <p>En Bildu Bizikidetza Birziklatu somos una organización sin ánimo de lucro, por lo que cualquier tipo de ayuda es siempre bien recibida.</p>
       </div>
@@ -698,5 +697,8 @@
 
     <!-- Patrocionadores -->
     <script src="./assets/js/patro/patro.js"></script>
+
+
+    <script src="./assets/js/preventLinks.js"></script>
   </body>
 </html>
