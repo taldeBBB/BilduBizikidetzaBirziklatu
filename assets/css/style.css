@@ -5977,10 +5977,14 @@ del {
   width: 50%;
 }
 .fotocoop {
-  max-width: 500px;
+  max-width: 300px;
 }
 .dflex {
   display: flex;
+}
+.asc
+{
+  align-self: center;
 }
 .mb5 {
   margin-bottom: 5%;
@@ -6070,6 +6074,10 @@ label.talign {
 
   form > .fields > .field.quarter {
     width: calc(100% - 1.5rem);
+  }
+  .fotocoop
+  {
+    max-width: 200px;
   }
 }
 
