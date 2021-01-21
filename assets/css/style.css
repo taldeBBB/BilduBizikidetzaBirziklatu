@@ -5977,7 +5977,8 @@ del {
   width: 50%;
 }
 .fotocoop {
-  max-width: 300px;
+  max-width: 500px;
+  width:100%;
 }
 .dflex {
   display: flex;
