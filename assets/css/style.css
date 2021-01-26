@@ -6412,6 +6412,20 @@ ul.actions.special {
   box-shadow: 0 0 50px black;
 }
 
+@media only screen and (min-width: 500px) {
+  .accept-policy-modal {
+    min-width: 500px;
+    min-height: 250px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .accept-policy-modal {
+    width: 90vw;
+    height: 55vh;
+  }
+}
+
 .policy-filling-background {
   height: calc(100vh - (100vh - 100%));
   width: calc(100vw - (100vw - 100%));
