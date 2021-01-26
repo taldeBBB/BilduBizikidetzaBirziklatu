@@ -113,6 +113,10 @@ header {
   background: white;
 }
 
+.logo {
+  margin: 20px;
+}
+
 /* background para las diferentes secciones de la pagina */
 /* se va alternando entre blanco, azul pastel y verde pastel para dar un poco de vida con el 
 color a la página */
@@ -2949,7 +2953,7 @@ main {
 @media (max-width: 575px) {
   .support-company-area .support-wrapper .left-content {
     width: 100%;
-    padding-left: 5px;/*cambiado por marta 14-1-2021    de 30 a 5*/
+    padding-left: 5px; /*cambiado por marta 14-1-2021    de 30 a 5*/
   }
 }
 .support-company-area .support-wrapper .left-content .support-caption {
@@ -5985,8 +5989,7 @@ del {
 .dflex {
   display: flex;
 }
-.asc
-{
+.asc {
   align-self: center;
 }
 .mb5 {
@@ -6078,8 +6081,7 @@ label.talign {
   form > .fields > .field.quarter {
     width: calc(100% - 1.5rem);
   }
-  .fotocoop
-  {
+  .fotocoop {
     max-width: 200px;
   }
 }
@@ -6335,6 +6337,6 @@ ul.actions.special {
 .linkA:hover {
   color: #09cc7f;
 }
-.faqh3{
+.faqh3 {
   font-size: 24px;
 }
