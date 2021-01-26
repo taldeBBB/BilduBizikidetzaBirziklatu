@@ -5983,6 +5983,14 @@ del {
 .w50 {
   width: 50%;
 }
+.w45
+{
+  width:45%;
+}
+.jcc
+{
+  justify-content:center;
+}
 .fotocoop {
   max-width: 300px;
 }
@@ -6059,6 +6067,12 @@ label.talign {
 .w100 {
   width: 100%;
 }
+.sugerencias
+{
+  width: 100% !important;
+    margin: auto !important;
+    max-width: 700px;
+}
 @media screen and (max-width: 480px) {
   form > .fields {
     width: calc(100% + 3rem);
@@ -6083,6 +6097,10 @@ label.talign {
   }
   .fotocoop {
     max-width: 200px;
+  }
+  .w45{
+    width:100%;
+    margin:auto;
   }
 }
 
