@@ -640,6 +640,10 @@ hr {
   background-size: 200%;
 }
 
+.boton-rojo {
+  background-image: linear-gradient(to left, #c04646, #d5826d, #c04646);
+}
+
 #scrollUp,
 #back-top {
   position: fixed;
@@ -6410,6 +6414,7 @@ ul.actions.special {
   background-color: white;
   border-radius: 25px;
   box-shadow: 0 0 50px black;
+  user-select: none;
 }
 
 @media only screen and (min-width: 500px) {
@@ -6474,6 +6479,10 @@ ul.actions.special {
 
 .policy-modal-content form input {
   margin-right: 10px;
+}
+
+.not-agreed {
+  box-shadow: 0px 0px 15px red;
 }
 
 .policy-modal-content .modal-checkbox-label {

@@ -1,4 +1,5 @@
 var user_acepted_policies = getCookie("aceptPolicies");
+var disableClick = false;
 
 $(document).ready(function () {
   if (user_acepted_policies != "true") {
@@ -14,15 +15,41 @@ $(document).ready(function () {
     }, 2000);
 
     $("#policy-agree").click(function () {
-      var checkCookies =
-        $('input[name="modalPoliticaCookies"]:checked').length > 0;
-      var checkDatos = $('input[name="modalPoliticaDatos"]:checked').length > 0;
-      if (checkCookies && checkDatos) {
-        $("#acceptPolicyModal").fadeOut();
-        $(".policy-filling-background").hide();
-        $("html").css({ "overflow-y": "scroll" });
-        enableScroll();
-        setCookie("aceptPolicies", "true", 30);
+      if (disableClick) {
+        return;
+      } else {
+        disableClick = true;
+        var checkCookies =
+          $('input[name="modalPoliticaCookies"]:checked').length > 0;
+        var checkDatos =
+          $('input[name="modalPoliticaDatos"]:checked').length > 0;
+        if (checkCookies && checkDatos) {
+          $("#acceptPolicyModal").fadeOut();
+          $(".policy-filling-background").hide();
+          $("html").css({ "overflow-y": "scroll" });
+          enableScroll();
+          setCookie("aceptPolicies", "true", 30);
+        } else {
+          $("#policy-agree")
+            .addClass("boton-rojo")
+            .effect("shake", { times: 4, distance: 50 }, 650)
+            .delay(1200)
+            .queue(function (next) {
+              $(this).removeClass("boton-rojo");
+              disableClick = false;
+              next();
+            });
+
+          $('.policy-modal-content form input[type="checkbox"]')
+            .addClass("not-agreed")
+            .effect("shake", { times: 4, distance: 5 }, 650)
+            .delay(1200)
+            .queue(function (next) {
+              $(this).removeClass("not-agreed");
+              disableClick = false;
+              next();
+            });
+        }
       }
     });
   }
