@@ -52,6 +52,8 @@ $(document).ready(function () {
         }
       }
     });
+  } else {
+    $(".policy-filling-background").hide();
   }
 });
 

@@ -6505,3 +6505,8 @@ ul.actions.special {
   width: auto;
   margin-right: 15px;
 }
+
+html,
+body {
+  width: calc(100vw - (100vw - 100%));
+}
