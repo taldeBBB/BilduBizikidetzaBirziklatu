@@ -2151,7 +2151,7 @@ footer .footer-padding {
 @media (max-width: 575px) {
   .section-tittle {
     margin-bottom: 50px;
-    text-align: left !important;
+    /* text-align: left !important; */
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -2192,7 +2192,7 @@ footer .footer-padding {
 }
 @media (max-width: 575px) {
   .section-tittle h2 {
-    text-align: left;
+    /* text-align: left; */
     font-size: 24px;
   }
 }
@@ -5983,8 +5983,20 @@ del {
 .w50 {
   width: 50%;
 }
+.w45 {
+  width: 45%;
+}
+.jcc {
+  justify-content: center;
+}
 .fotocoop {
-  max-width: 300px;
+  max-width: 500px;
+  width: 100%;
+}
+.sugerencias {
+  width: 100% !important;
+  margin: auto !important;
+  max-width: 700px;
 }
 .dflex {
   display: flex;
@@ -6083,6 +6095,10 @@ label.talign {
   }
   .fotocoop {
     max-width: 200px;
+  }
+  .w45 {
+    width: 100%;
+    margin: auto;
   }
 }
 
