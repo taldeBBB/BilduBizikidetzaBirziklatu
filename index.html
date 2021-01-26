@@ -37,6 +37,31 @@
   </head>
 
   <body>
+    <div class="policy-filling-background"></div>
+    <div class="accept-policy-modal" id="acceptPolicyModal">
+      <div class="policy-modal-title">
+        <p>Politica de privacidad de datos & cookies</p>
+      </div>
+      <div class="policy-modal-content">
+        <p>Hola,</p>
+        <p>Gracias por visitar nuestra web.</p>
+        <p>Para continuar tienes que aceptar las siguientes politicas de datos.</p>
+        <form>
+          
+          <label for="modalPoliticaDatos">
+            <input type="checkbox" name="modalPoliticaDatos" id="modalPoliticaDatos">
+            <span class="modal-checkbox-label">He leído la <a href="./about.html" target="_blank">politica de datos</a>.</span>
+          </label>
+          <label for="modalPoliticaCookies">
+            <input type="checkbox" name="modalPoliticaCookies" id="modalPoliticaCookies">
+            <span class="modal-checkbox-label">He leído la <a href="./about.html" target="_blank">politica de cookies</a>.</span>
+          </label>
+        </form>
+      </div>
+      <div class="policy-modal-buttons">
+        <div id="policy-agree" class="boton-verde">Acepto las politicas</div>
+      </div>
+    </div>
     <!-- ? Preloader Start -->
     
     <div id="preloader-active">
@@ -149,19 +174,19 @@
       <div id="contenedor-galeria">
         <div id="contenedor-galeria-filtros">
           <ul>
-            <div class="header-right-btn d-none d-lg-block ml-20">
+            <div class="header-right-btn d-lg-block ml-20">
               <a href="#" data-filter="all" class="btn header-btn"><li>Todo</li></a>
             </div>
-            <div class="header-right-btn d-none d-lg-block ml-20">
+            <div class="header-right-btn d-lg-block ml-20">
               <a href="#" data-filter="monte" class="btn header-btn"><li>Monte</li></a>
             </div>
-            <div class="header-right-btn d-none d-lg-block ml-20">
+            <div class="header-right-btn d-lg-block ml-20">
               <a href="#" data-filter="calle" class="btn header-btn"><li>Calle</li></a>
             </div>
-            <div class="header-right-btn d-none d-lg-block ml-20">
+            <div class="header-right-btn d-lg-block ml-20">
               <a href="#" data-filter="mar" class="btn header-btn"><li>Mar</li></a>
             </div>
-            <div class="header-right-btn d-none d-lg-block ml-20">
+            <div class="header-right-btn d-lg-block ml-20">
               <a href="#" data-filter="presentacion" class="btn header-btn"
                 ><li>Presentacion</li></a
               >
@@ -589,13 +614,13 @@
                                  
                                  <ul>
                                      <li><a href="#">Preguntas Frecuentes</a></li>
-                                     <li><a href="#"> Copyright &copy;
+                                     <li>Copyright &copy;
                     <script>
                       document.write(new Date().getFullYear());
                     </script>
                     All rights reserved | This template is made with
                     <i class="fa fa-heart" aria-hidden="true"></i> by
-                    <a href="https://colorlib.com" target="_blank">Colorlib</a></a></li>
+                    <a href="https://colorlib.com" target="_blank">Colorlib</a></li>
                                      
                                  </ul>
                              </div>
@@ -708,5 +733,8 @@
 
     <!-- Patrocionadores -->
     <script src="./assets/js/patro/patro.js"></script>
+
+    <!-- Modal -->
+    <script src="./assets/modal/modal.js"></script>
   </body>
 </html>
