@@ -20,7 +20,7 @@ $(document).ready(function () {
       if (checkCookies && checkDatos) {
         $("#acceptPolicyModal").fadeOut();
         $(".policy-filling-background").hide();
-        $("html").css({ overflow: "auto" });
+        $("html").css({ "overflow-y": "scroll" });
         enableScroll();
         setCookie("aceptPolicies", "true", 30);
       }
