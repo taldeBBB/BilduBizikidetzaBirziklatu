@@ -1,0 +1,23 @@
+body{background-color:#09cc7f; color:#E1EDE0;font-family:"Montserrat",sans-serif;}
+h1{text-align:center;color:black;background-color:#A4DC9C;font-family:}
+h2{text-align:left;color:black;font-family:}
+h4{color:black;text-align:left;font-family:}
+article{font-size:15px;}
+aside{ font-size:16px;text-align:justify; margin-top:150px; }
+section{text-align:justify;}
+p{text-align:justify;}
+
+.porque{background-color:#09cc7f; width:300px; }
+.porque:hover{background-color:white;transition:0.7s;}
+
+.donde{background-color:#09cc7f;width:315px; }
+.donde:hover{background-color:white;transition:0.7s;}
+	
+.como{background-color:#09cc7f;width:350px; }
+.como:hover{background-color:white;transition:0.7s;}
+
+.imgporque{width:30px; height:30px;}
+.imgdonde{width:30px; height:30px;}
+.imgcomo{width:30px; height:30px;}
+
+.textjustify{text-align:justify; width:70%; display:block; margin-right:auto; line-height:25px;}

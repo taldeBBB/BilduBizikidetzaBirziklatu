@@ -1,822 +1,1029 @@
 <!DOCTYPE html>
 <html class="no-js">
-	<head>
-		<!-- Meta tags -->
-		<meta charset="utf-8" />
-		<meta http-equiv="x-ua-compatible" content="ie=edge" />
-		<meta name="description" content="Website for BilduBizikidetzaBirziklatu" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
+  <head>
+    <!-- Meta tags -->
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="description" content="Website for BilduBizikidetzaBirziklatu" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-		<!-- Fav Icon -->
-		<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
-		<link rel="icon" href="./favicon.ico" type="image/x-icon" />
+    <!-- Fav Icon -->
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
 
-		<!-- CSS links -->
-		<link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
-		<link rel="stylesheet" href="./assets/css/owl.carousel.min.css" />
-		<link rel="stylesheet" href="./assets/css/slicknav.css" />
-		<link rel="stylesheet" href="./assets/css/flaticon.css" />
-		<link rel="stylesheet" href="./assets/css/progressbar_barfiller.css" />
-		<link rel="stylesheet" href="./assets/css/gijgo.css" />
-		<link rel="stylesheet" href="./assets/css/animate.min.css" />
-		<link rel="stylesheet" href="./assets/css/animated-headline.css" />
-		<link rel="stylesheet" href="./assets/css/magnific-popup.css" />
-		<link rel="stylesheet" href="./assets/css/fontawesome-all.min.css" />
-		<link rel="stylesheet" href="./assets/css/themify-icons.css" />
-		<link rel="stylesheet" href="./assets/css/slick.css" />
-		<link rel="stylesheet" href="./assets/css/nice-select.css" />
-		<link rel="stylesheet" href="./assets/css/style.css" />
-		<link rel="stylesheet" href="./assets/gallery/css/style-gal.css" />
-		<link rel="stylesheet" href="./assets/gallery/css/tablet-gal.css" media="(min-width: 650px)" />
-		<link rel="stylesheet" href="./assets/gallery/css/desktop-gal.css" media="(min-width: 950px)" />
-		<link rel="stylesheet" href="./assets/gallery/css/desktop2-gal.css" media="(min-width: 1250px)" />
-		<link rel="stylesheet" href="./assets/patro/css/style-patro.css" />
+    <!-- CSS links -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./assets/css/slicknav.css" />
+    <link rel="stylesheet" href="./assets/css/flaticon.css" />
+    <link rel="stylesheet" href="./assets/css/progressbar_barfiller.css" />
+    <link rel="stylesheet" href="./assets/css/gijgo.css" />
+    <link rel="stylesheet" href="./assets/css/animate.min.css" />
+    <link rel="stylesheet" href="./assets/css/animated-headline.css" />
+    <link rel="stylesheet" href="./assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="./assets/css/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="./assets/css/themify-icons.css" />
+    <link rel="stylesheet" href="./assets/css/slick.css" />
+    <link rel="stylesheet" href="./assets/css/nice-select.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/gallery/css/style-gal.css" />
+    <link rel="stylesheet" href="./assets/gallery/css/tablet-gal.css" media="(min-width: 650px)" />
+    <link rel="stylesheet" href="./assets/gallery/css/desktop-gal.css" media="(min-width: 950px)" />
+    <link
+      rel="stylesheet"
+      href="./assets/gallery/css/desktop2-gal.css"
+      media="(min-width: 1250px)"
+    />
+    <link rel="stylesheet" href="./assets/patro/css/style-patro.css" />
 
-		<title>Bildu Bizikidetza Birziklatu</title>
-	</head>
+    <title>Bildu Bizikidetza Birziklatu</title>
+  </head>
 
-	<body>
-		<!-- START ACCEPT POLICIES MODAL -->
-		<div class="policy-filling-background"></div>
-		<div class="accept-policy-modal" id="acceptPolicyModal">
-			<div class="policy-modal-title">
-				<p>Politica de privacidad de datos & cookies</p>
-			</div>
-			<div class="policy-modal-content">
-				<p>Hola,</p>
-				<p>Gracias por visitar nuestra web.</p>
-				<p>Para continuar tienes que aceptar las siguientes politicas de datos.</p>
-				<form action="#" method="POST">
-					<label for="modalPoliticaDatos">
-						<input type="checkbox" name="modalPoliticaDatos" id="modalPoliticaDatos" />
-						<span class="modal-checkbox-label">He leído la <a href="./privacidad.html" target="_blank">politica de datos</a>.</span>
-					</label>
-					<label for="modalPoliticaCookies">
-						<input type="checkbox" name="modalPoliticaCookies" id="modalPoliticaCookies" />
-						<span class="modal-checkbox-label">He leído la <a href="./cookies.html" target="_blank">politica de cookies</a>.</span>
-					</label>
-				</form>
-			</div>
-			<div class="policy-modal-buttons">
-				<div id="policy-agree" class="boton-verde">Acepto las politicas</div>
-			</div>
-		</div>
-		<!-- END ACCEPT POLICIES MODAL -->
+  <body>
+    <!-- START ACCEPT POLICIES MODAL -->
+    <div class="policy-filling-background"></div>
+    <div class="accept-policy-modal" id="acceptPolicyModal">
+      <div class="policy-modal-title">
+        <p>Politica de privacidad de datos & cookies</p>
+      </div>
+      <div class="policy-modal-content">
+        <p>Hola,</p>
+        <p>Gracias por visitar nuestra web.</p>
+        <p>Para continuar tienes que aceptar las siguientes politicas de datos.</p>
+        <form action="#" method="POST">
+          <label for="modalPoliticaDatos">
+            <input type="checkbox" name="modalPoliticaDatos" id="modalPoliticaDatos" />
+            <span class="modal-checkbox-label"
+              >He leído la <a href="./privacidad.html" target="_blank">politica de datos</a>.</span
+            >
+          </label>
+          <label for="modalPoliticaCookies">
+            <input type="checkbox" name="modalPoliticaCookies" id="modalPoliticaCookies" />
+            <span class="modal-checkbox-label"
+              >He leído la <a href="./cookies.html" target="_blank">politica de cookies</a>.</span
+            >
+          </label>
+        </form>
+      </div>
+      <div class="policy-modal-buttons">
+        <div id="policy-agree" class="boton-verde">Acepto las politicas</div>
+      </div>
+    </div>
+    <!-- END ACCEPT POLICIES MODAL -->
 
-		<!-- START PRELOADER -->
-		<div id="preloader-active">
-			<div class="preloader d-flex align-items-center justify-content-center">
-				<div class="preloader-inner position-relative">
-					<div class="preloader-circle"></div>
-					<div class="preloader-img pere-text">
-						<img src="assets/img/logo/loder.png" alt="" />
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- END PRELOADER -->
+    <!-- START PRELOADER -->
+    <div id="preloader-active">
+      <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="preloader-inner position-relative">
+          <div class="preloader-circle"></div>
+          <div class="preloader-img pere-text">
+            <img src="assets/img/logo/loder.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END PRELOADER -->
 
-		<!-- START HEADER -->
-		<header>
-			<div class="header-area">
-				<div class="main-header">
-					<div class="header-bottom header-sticky">
-						<div class="container-fluid">
-							<div class="row align-items-center">
-								<div class="col-xl-2 col-lg-2">
-									<div class="logo">
-										<a href="index.html">
-											<img src="assets/img/logo/BBB-full-beta.png" alt="" />
-										</a>
-									</div>
-								</div>
-								<div class="col-xl-10 col-lg-10">
-									<div class="menu-wrapper d-flex align-items-center justify-content-end">
-										<div class="main-menu d-none d-lg-block">
-											<nav>
-												<ul id="navigation">
-													<li>
-														<a href="index.html">Home</a>
-													</li>
-													<li>
-														<a href="#quedadas">Quedadas</a>
-													</li>
-													<li>
-														<a href="#">Nosotros</a>
-														<ul class="submenu">
-															<li>
-																<a href="#nosotros">Sobre nosotros</a>
-															</li>
-															<li>
-																<a href="#contacto">Contactanos</a>
-															</li>
-														</ul>
-													</li>
-													<li>
-														<a href="#noticias">Noticias</a>
-													</li>
-												</ul>
-											</nav>
-										</div>
-										<div class="header-right-btn d-none d-lg-block ml-20">
-											<a href="contact.html" class="btn header-btn">Haz una donación</a>
-										</div>
-									</div>
-								</div>
-								<div class="col-12">
-									<div class="mobile_menu d-block d-lg-none"></div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</header>
-		<!-- END HEADER -->
+    <!-- START HEADER -->
+    <header>
+      <div class="header-area">
+        <div class="main-header">
+          <div class="header-bottom header-sticky">
+            <div class="container-fluid">
+              <div class="row align-items-center">
+                <div class="col-xl-2 col-lg-2">
+                  <div class="logo">
+                    <a href="index.html">
+                      <img src="assets/img/logo/BBB-full-beta.png" alt="" />
+                    </a>
+                  </div>
+                </div>
+                <div class="col-xl-10 col-lg-10">
+                  <div class="menu-wrapper d-flex align-items-center justify-content-end">
+                    <div class="main-menu d-none d-lg-block">
+                      <nav>
+                        <ul id="navigation">
+                          <li>
+                            <a href="index.html">Home</a>
+                          </li>
+                          <li>
+                            <a href="#quedadas">Quedadas</a>
+                          </li>
+                          <li>
+                            <a href="#">Nosotros</a>
+                            <ul class="submenu">
+                              <li>
+                                <a href="#nosotros">Sobre nosotros</a>
+                              </li>
+                              <li>
+                                <a href="#contacto">Contactanos</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li>
+                            <a href="#noticias">Noticias</a>
+                          </li>
+                        </ul>
+                      </nav>
+                    </div>
+                    <div class="header-right-btn d-none d-lg-block ml-20">
+                      <a href="contact.html" class="btn header-btn">Haz una donación</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="mobile_menu d-block d-lg-none"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- END HEADER -->
 
-		<!-- START MAIN -->
-		<main>
-			<!-- START HERO VIDEO -->
-			<div class="slider-area position-relative">
-				<div class="slider-active dot-style slick-initialized slick-slider">
-					<div class="slick-list draggable">
-						<div class="slick-track" style="opacity: 1; width: 2543px">
-							<div
-								class="single-slider hero-overly slider-height slider-bg1 d-flex align-items-center slick-slide slick-current slick-active"
-								data-slick-index="0"
-								aria-hidden="false"
-								style="width: 2543px; position: relative; left: 0px; top: 0px; z-index: 999; opacity: 1"
-								tabindex="0"
-							>
-								<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" src="./assets/img/hero/Seaview_bottle_shot.mp4"></video>
-								<div class="container">
-									<div class="row">
-										<div class="col-xl-8 col-lg-8 col-md-8 col-sm-10">
-											<div class="hero__caption">
-												<h1 data-animation="fadeInUp" data-delay=".2s" class="" style="animation-delay: 0.2s">Bildu Bizikidetza Birziklatu</h1>
-												<p data-animation="fadeInUp" data-delay=".4s" class="" style="animation-delay: 0.4s">
-													Limpia el mundo
-													<br />Limpia tu futuro
-												</p>
-												<div class="hero__btn">
-													<a href="industries.html" data-animation="fadeInUp" data-delay=".8s" class="" tabindex="0" style="animation-delay: 0.8s">Unete a nosotros</a>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- END HERO VIDEO -->
+    <!-- START MAIN -->
+    <main>
+      <!-- START HERO VIDEO -->
+      <div class="slider-area position-relative">
+        <div class="slider-active dot-style slick-initialized slick-slider">
+          <div class="slick-list draggable">
+            <div class="slick-track" style="opacity: 1; width: 2543px">
+              <div
+                class="single-slider hero-overly slider-height slider-bg1 d-flex align-items-center slick-slide slick-current slick-active"
+                data-slick-index="0"
+                aria-hidden="false"
+                style="
+                  width: 2543px;
+                  position: relative;
+                  left: 0px;
+                  top: 0px;
+                  z-index: 999;
+                  opacity: 1;
+                "
+                tabindex="0"
+              >
+                <video
+                  playsinline="playsinline"
+                  autoplay="autoplay"
+                  muted="muted"
+                  loop="loop"
+                  src="./assets/img/hero/Seaview_bottle_shot.mp4"
+                ></video>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-10">
+                      <div class="hero__caption">
+                        <h1
+                          data-animation="fadeInUp"
+                          data-delay=".2s"
+                          class=""
+                          style="animation-delay: 0.2s"
+                        >
+                          Bildu Bizikidetza Birziklatu
+                        </h1>
+                        <p
+                          data-animation="fadeInUp"
+                          data-delay=".4s"
+                          class=""
+                          style="animation-delay: 0.4s"
+                        >
+                          Limpia el mundo
+                          <br />Limpia tu futuro
+                        </p>
+                        <div class="hero__btn">
+                          <a
+                            href="industries.html"
+                            data-animation="fadeInUp"
+                            data-delay=".8s"
+                            class=""
+                            tabindex="0"
+                            style="animation-delay: 0.8s"
+                            >Unete a nosotros</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END HERO VIDEO -->
 
-			<!-- START MEETINGS GALLERY -->
-			<div id="quedadas"></div>
-			<div id="contenedor-galeria">
-				<div id="contenedor-galeria-filtros">
-					<ul>
-						<div class="header-right-btn d-lg-block ml-20">
-							<a href="#" data-filter="all" class="btn header-btn"><li>Todo</li></a>
-						</div>
-						<div class="header-right-btn d-lg-block ml-20">
-							<a href="#" data-filter="monte" class="btn header-btn"><li>Monte</li></a>
-						</div>
-						<div class="header-right-btn d-lg-block ml-20">
-							<a href="#" data-filter="calle" class="btn header-btn"><li>Calle</li></a>
-						</div>
-						<div class="header-right-btn d-lg-block ml-20">
-							<a href="#" data-filter="mar" class="btn header-btn"><li>Mar</li></a>
-						</div>
-						<div class="header-right-btn d-lg-block ml-20">
-							<a href="#" data-filter="presentacion" class="btn header-btn"><li>Presentacion</li></a>
-						</div>
-					</ul>
-				</div>
-				<div id="contenedor-galeria-contenido">
-					<ul>
-						<li class="galery-content-item" data-cat="monte">
-							<a href="#">
-								<p>Quedada 01/01</p>
-							</a>
-						</li>
-						<li class="galery-content-item" data-cat="monte">
-							<a href="#">
-								<p>Quedada 02/02</p>
-							</a>
-						</li>
-						<li class="galery-content-item" data-cat="monte">
-							<a href="#">
-								<p>Quedada 03/03</p>
-							</a>
-						</li>
+      <!-- START MEETINGS GALLERY -->
+      <div id="quedadas"></div>
+      <div id="contenedor-galeria">
+        <div id="contenedor-galeria-filtros">
+          <ul>
+            <div class="header-right-btn d-lg-block ml-20">
+              <a href="#" data-filter="all" class="btn header-btn"><li>Todo</li></a>
+            </div>
+            <div class="header-right-btn d-lg-block ml-20">
+              <a href="#" data-filter="monte" class="btn header-btn"><li>Monte</li></a>
+            </div>
+            <div class="header-right-btn d-lg-block ml-20">
+              <a href="#" data-filter="calle" class="btn header-btn"><li>Calle</li></a>
+            </div>
+            <div class="header-right-btn d-lg-block ml-20">
+              <a href="#" data-filter="mar" class="btn header-btn"><li>Mar</li></a>
+            </div>
+            <div class="header-right-btn d-lg-block ml-20">
+              <a href="#" data-filter="presentacion" class="btn header-btn"
+                ><li>Presentacion</li></a
+              >
+            </div>
+          </ul>
+        </div>
+        <div id="contenedor-galeria-contenido">
+          <ul>
+            <li class="galery-content-item" data-cat="monte">
+              <a href="#">
+                <p>Quedada 01/01</p>
+              </a>
+            </li>
+            <li class="galery-content-item" data-cat="monte">
+              <a href="#">
+                <p>Quedada 02/02</p>
+              </a>
+            </li>
+            <li class="galery-content-item" data-cat="monte">
+              <a href="#">
+                <p>Quedada 03/03</p>
+              </a>
+            </li>
 
-						<li class="galery-content-item" data-cat="calle">
-							<a href="#">
-								<p>Quedada 04/04</p>
-							</a>
-						</li>
-						<li class="galery-content-item" data-cat="calle">
-							<a href="#">
-								<p>Quedada 05/05</p>
-							</a>
-						</li>
-						<li class="galery-content-item" data-cat="calle">
-							<a href="#">
-								<p>Quedada 06/06</p>
-							</a>
-						</li>
+            <li class="galery-content-item" data-cat="calle">
+              <a href="#">
+                <p>Quedada 04/04</p>
+              </a>
+            </li>
+            <li class="galery-content-item" data-cat="calle">
+              <a href="#">
+                <p>Quedada 05/05</p>
+              </a>
+            </li>
+            <li class="galery-content-item" data-cat="calle">
+              <a href="#">
+                <p>Quedada 06/06</p>
+              </a>
+            </li>
 
-						<li class="galery-content-item" data-cat="mar">
-							<a href="#">
-								<p>Quedada 07/07</p>
-							</a>
-						</li>
-						<li class="galery-content-item" data-cat="mar">
-							<a href="#">
-								<p>Quedada 08/08</p>
-							</a>
-						</li>
-						<li class="galery-content-item" data-cat="mar">
-							<a href="#">
-								<p>Quedada 09/09</p>
-							</a>
-						</li>
+            <li class="galery-content-item" data-cat="mar">
+              <a href="#">
+                <p>Quedada 07/07</p>
+              </a>
+            </li>
+            <li class="galery-content-item" data-cat="mar">
+              <a href="#">
+                <p>Quedada 08/08</p>
+              </a>
+            </li>
+            <li class="galery-content-item" data-cat="mar">
+              <a href="#">
+                <p>Quedada 09/09</p>
+              </a>
+            </li>
 
-						<li class="galery-content-item" data-cat="presentacion">
-							<a href="#">
-								<p>Quedada 10/10</p>
-							</a>
-						</li>
-						<li class="galery-content-item" data-cat="presentacion">
-							<a href="#">
-								<p>Quedada 11/11</p>
-							</a>
-						</li>
-						<li class="galery-content-item" data-cat="presentacion">
-							<a href="#">
-								<p>Quedada 12/12</p>
-							</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<!-- END MEETINGS GALLERY -->
+            <li class="galery-content-item" data-cat="presentacion">
+              <a href="#">
+                <p>Quedada 10/10</p>
+              </a>
+            </li>
+            <li class="galery-content-item" data-cat="presentacion">
+              <a href="#">
+                <p>Quedada 11/11</p>
+              </a>
+            </li>
+            <li class="galery-content-item" data-cat="presentacion">
+              <a href="#">
+                <p>Quedada 12/12</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- END MEETINGS GALLERY -->
 
-			<!-- START NEWS -->
-			<div id="noticias"></div>
-			<div class="noticias-contenedor-general">
-				<div class="noticias-contenedor">
-					<h2 class="titulo">Noticias relacionadas</h2>
-					<div class="noticia">
-						<img src="assets/img/blog/furgoneta-kHTH-U80853890216q4E-624x385@Diario Vasco.jpg" alt="" />
-						<div class="contenido-noticias">
-							<h3>Aplazamiento de la quedada en Zarautz</h3>
-							<p>
-								Reunida la Junta Directiva de la asociación BBB, por medios telemáticos, debido a la situación de alerta creada por la expansión del coronavirus en nuestra comunidad autónoma, por
-								precaución hemos decidido lo siguiente:
-							</p>
-							<p>Aplazar la quedada, prevista para el día 20 de mayo en Zarautz (Gipuzkoa).</p>
-							<p>
-								Pedir disculpas a nuestros asociados por los trastornos causados debido a la suspensión del evento, pero entendemos desde esta junta directiva, que prima la salud de todos antes que
-								cualquier cosa.
-							</p>
+      <!-- START NEWS -->
+      <div id="noticias"></div>
+      <div class="noticias-contenedor-general">
+        <div class="noticias-contenedor">
+          <h2 class="titulo">Noticias relacionadas</h2>
+          <div class="noticia">
+            <img
+              src="assets/img/blog/furgoneta-kHTH-U80853890216q4E-624x385@Diario Vasco.jpg"
+              alt=""
+            />
+            <div class="contenido-noticias">
+              <h3>Aplazamiento de la quedada en Zarautz</h3>
+              <p>
+                Reunida la Junta Directiva de la asociación BBB, por medios telemáticos, debido a la
+                situación de alerta creada por la expansión del coronavirus en nuestra comunidad
+                autónoma, por precaución hemos decidido lo siguiente:
+              </p>
+              <p>Aplazar la quedada, prevista para el día 20 de mayo en Zarautz (Gipuzkoa).</p>
+              <p>
+                Pedir disculpas a nuestros asociados por los trastornos causados debido a la
+                suspensión del evento, pero entendemos desde esta junta directiva, que prima la
+                salud de todos antes que cualquier cosa.
+              </p>
 
-							<p>Cuando la situación se normalice, se comunicará la nueva fecha del evento en Zarautz.</p>
-						</div>
-					</div>
-					<div class="noticia">
-						<img src="assets/img/blog/HRHS_186.jpg" alt="" />
-						<div class="contenido-noticias">
-							<h3>Los microplasticos ya están en los tejidos del cuerpo humano</h3>
-							<p>
-								"Hay evidencia de que el plástico se está abriendo camino en nuestros cuerpos, pero muy pocos estudios lo han buscado allí. Y en este punto, no sabemos si este plástico es solo una
-								molestia o si representa un peligro para la salud humana", explica Charles Rolsky, que ha presentado un estudio al respecto en la Reunión y Exposición Virtual de Otoño de 2020 de la
-								American Chemical Society.
-								<a class="linkA" href="https://www.ecoticias.com/residuos-reciclaje/204272/microplasticos-estan-tejidos-cuerpo-humano">Leer mas...</a>
-							</p>
-						</div>
-					</div>
-					<div class="noticia">
-						<img src="assets/img/blog/DSC08361 [1600x1200].JPG" alt="" />
-						<div class="contenido-noticias">
-							<h3>[Realizada] Quedada en Muskiz</h3>
-							<p>
-								Muskiz (Bizkaia), el dia 25 de Marzo. Aparcamiento de la playa al lado del Restaurante La Fábrica de Juan. Desde el aparcamiento bajaremos a la playa para realizar labores de
-								limpieza.<br />
-								Animate y ven!
-							</p>
-						</div>
-					</div>
-					<div class="noticia">
-						<img src="assets/img/blog/meneame-media-link-3264774.jpeg" alt="" />
-						<div class="contenido-noticias">
-							<h3>Los gorriones se están extinguiéndo</h3>
-							<p>
-								Hace décadas que los gorriones están desapareciendo y no tenemos clara la causa. Lo que sí sabemos es que, como no lo detengamos, las consecuencias serán muy graves. Durante miles de
-								años hemos levantado selvas artificiales, primero de barro y paja, ahora de acero y vidrio. Nuestra sociedad ha evolucionado desde aquellos primeros asentamientos, y en nuestro viaje
-								hemos arrastrado a otras especies. Cuando pensamos en domesticación nos viene a la mente el perro, tal vez incluso el ganado, pero, en realidad, es una realidad que va más allá (...)
-								<a class="linkA" href="https://www.larazon.es/ciencia/20200308/7unm2zlhhjhiribvmryqmwlwyi.html">Leer mas...</a>
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- END NEWS -->
+              <p>
+                Cuando la situación se normalice, se comunicará la nueva fecha del evento en
+                Zarautz.
+              </p>
+            </div>
+          </div>
+          <div class="noticia">
+            <img src="assets/img/blog/HRHS_186.jpg" alt="" />
+            <div class="contenido-noticias">
+              <h3>Los microplasticos ya están en los tejidos del cuerpo humano</h3>
+              <p>
+                "Hay evidencia de que el plástico se está abriendo camino en nuestros cuerpos, pero
+                muy pocos estudios lo han buscado allí. Y en este punto, no sabemos si este plástico
+                es solo una molestia o si representa un peligro para la salud humana", explica
+                Charles Rolsky, que ha presentado un estudio al respecto en la Reunión y Exposición
+                Virtual de Otoño de 2020 de la American Chemical Society.
+                <a
+                  class="linkA"
+                  href="https://www.ecoticias.com/residuos-reciclaje/204272/microplasticos-estan-tejidos-cuerpo-humano"
+                  >Leer mas...</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="noticia">
+            <img src="assets/img/blog/DSC08361 [1600x1200].JPG" alt="" />
+            <div class="contenido-noticias">
+              <h3>[Realizada] Quedada en Muskiz</h3>
+              <p>
+                Muskiz (Bizkaia), el dia 25 de Marzo. Aparcamiento de la playa al lado del
+                Restaurante La Fábrica de Juan. Desde el aparcamiento bajaremos a la playa para
+                realizar labores de limpieza.<br />
+                Animate y ven!
+              </p>
+            </div>
+          </div>
+          <div class="noticia">
+            <img src="assets/img/blog/meneame-media-link-3264774.jpeg" alt="" />
+            <div class="contenido-noticias">
+              <h3>Los gorriones se están extinguiéndo</h3>
+              <p>
+                Hace décadas que los gorriones están desapareciendo y no tenemos clara la causa. Lo
+                que sí sabemos es que, como no lo detengamos, las consecuencias serán muy graves.
+                Durante miles de años hemos levantado selvas artificiales, primero de barro y paja,
+                ahora de acero y vidrio. Nuestra sociedad ha evolucionado desde aquellos primeros
+                asentamientos, y en nuestro viaje hemos arrastrado a otras especies. Cuando pensamos
+                en domesticación nos viene a la mente el perro, tal vez incluso el ganado, pero, en
+                realidad, es una realidad que va más allá (...)
+                <a
+                  class="linkA"
+                  href="https://www.larazon.es/ciencia/20200308/7unm2zlhhjhiribvmryqmwlwyi.html"
+                  >Leer mas...</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END NEWS -->
 
-			<!-- START AD BLOCK -->
-			<div>
-				<img src="assets/img/gallery/Organic Fruits Rectangular Advertisement.png" class="publicidad" alt="Publicidad" />
-			</div>
-			<!-- END AD BLOCK -->
+      <!-- START AD BLOCK -->
+      <div>
+        <img
+          src="assets/img/gallery/Organic Fruits Rectangular Advertisement.png"
+          class="publicidad"
+          alt="Publicidad"
+        />
+      </div>
+      <!-- END AD BLOCK -->
 
-			<!-- START TAKE PART -->
-			<div id="contacto"></div>
-			<div class="content-wrapper-full-width">
-				<div class="container">
-					<div class="section-tittle text-center">
-						<h2 class="titulo">¡PARTICIPA!</h2>
-					</div>
-					<div class="dflex mb5 jcc">
-						<div class="w45 asc taligncenter">
-							<p>Al participar con Bildu Bizikidetza Birziklatu estás ayudando a la limpieza del entorno natural de nuestra bella provincia.</p>
-							<p>Si eres una persona activa, con amor por la naturaleza y con ganas de ayudar, tu sitio está con nosotros.</p>
-							<p>
-								Puedes formar tu propio grupo con amigos o familiares, o unirte a cualquiera de los grupos que participen en las salidas, en las que encontrarás gente con inquietudes como las tuyas,
-								buen rollo y solidaridad.
-							</p>
-							<p>Tu participación marca la diferencia. Nuestro entorno nota la diferencia.</p>
-						</div>
-						<div class="w45">
-							<img src="assets/img/coop.jpg" class="fotocoop" alt="Foto para animar a la colaboración." />
-						</div>
-					</div>
-					<form method="POST" action="#">
-						<div class="fields">
-							<div class="field half">
-								<label for="name" class="fsize talign">Nombre *</label>
-								<input type="text" name="name" id="name" placeholder="Tu Nombre" required />
-							</div>
-							<div class="field half">
-								<label for="apellido" class="fsize talign">Apellidos *</label>
-								<input type="text" name="apellidos" id="apellidos" placeholder="Tus Apellidos" required />
-							</div>
-							<div class="field half">
-								<label for="email" class="fsize talign">Email *</label>
-								<input type="email" name="email" id="emailFormTakePart" placeholder="nombre@email.com" required />
-							</div>
-							<div class="field half">
-								<label for="telefono" class="fsize talign">Teléfono</label>
-								<input type="tel" name="telefono" id="telefonoFormTakePart" placeholder="+34-" class="w100" />
-							</div>
-							<br />
-							<br />
-							<div class="field mb-90">
-								<div class="fbxrow">
-									<input type="checkbox" id="lpdFormTakePart" value="acepto" name="chklpd" required />
-									<label for="chklpd" class="lbllpd">Acepto permitir a Bildu Bizikidetza Birziklatu almacenar y procesar mis datos personales.*</label>
-								</div>
-								<ul class="actions special">
-									<li class="taligncenter">
-										<input class="boton-verde" type="submit" name="submit" value="¡Me Apunto!" />
-									</li>
-								</ul>
-							</div>
-							<br />
-							<br />
-							<div class="field">
-								<div class="section-tittle text-center">
-									<h2 class="titulo">SUGERENCIAS</h2>
-								</div>
-							</div>
-							<div class="dflex mb5 jcc">
-								<div class="w45 asc taligncenter">
-									<p>¿Se te ocurre algun lugar al que podamos enviar a un equipo?</p>
-									<p>¿Tienes alguna idea para mejorar nuestras actuaciones?</p>
-									<p>¿Conoces a alguna persona o empresa que quiera colaborar?</p>
-									<p>En Bildu Bizikidetza Birziklatu estamos encantados de escuchar todas vuestras sugerencias, ya que el principal beneficiado es nuestro entorno.</p>
-								</div>
-								<div class="w45">
-									<img src="assets/img/sugiere.jpg" class="fotocoop" alt="Bombilla" />
-								</div>
-							</div>
-							<textarea name="message" id="message" rows="6"></textarea>
-							<ul class="actions special">
-								<li class="taligncenter">
-									<input class="boton-verde" type="submit" name="submit" value="Enviar" />
-								</li>
-							</ul>
-						</div>
-					</form>
-				</div>
-			</div>
-			<!-- END TAKE PART -->
+      <!-- START TAKE PART -->
+      <div id="contacto"></div>
+      <div class="content-wrapper-full-width">
+        <div class="container">
+          <div class="section-tittle text-center">
+            <h2 class="titulo">¡PARTICIPA!</h2>
+          </div>
+          <div class="dflex mb5 jcc">
+            <div class="w45 asc taligncenter">
+              <p>
+                Al participar con Bildu Bizikidetza Birziklatu estás ayudando a la limpieza del
+                entorno natural de nuestra bella provincia.
+              </p>
+              <p>
+                Si eres una persona activa, con amor por la naturaleza y con ganas de ayudar, tu
+                sitio está con nosotros.
+              </p>
+              <p>
+                Puedes formar tu propio grupo con amigos o familiares, o unirte a cualquiera de los
+                grupos que participen en las salidas, en las que encontrarás gente con inquietudes
+                como las tuyas, buen rollo y solidaridad.
+              </p>
+              <p>Tu participación marca la diferencia. Nuestro entorno nota la diferencia.</p>
+            </div>
+            <div class="w45">
+              <img
+                src="assets/img/coop.jpg"
+                class="fotocoop"
+                alt="Foto para animar a la colaboración."
+              />
+            </div>
+          </div>
+          <form method="POST" action="#">
+            <div class="fields">
+              <div class="field half">
+                <label for="name" class="fsize talign">Nombre *</label>
+                <input type="text" name="name" id="name" placeholder="Tu Nombre" required />
+              </div>
+              <div class="field half">
+                <label for="apellido" class="fsize talign">Apellidos *</label>
+                <input
+                  type="text"
+                  name="apellidos"
+                  id="apellidos"
+                  placeholder="Tus Apellidos"
+                  required
+                />
+              </div>
+              <div class="field half">
+                <label for="email" class="fsize talign">Email *</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="emailFormTakePart"
+                  placeholder="nombre@email.com"
+                  required
+                />
+              </div>
+              <div class="field half">
+                <label for="telefono" class="fsize talign">Teléfono</label>
+                <input
+                  type="tel"
+                  name="telefono"
+                  id="telefonoFormTakePart"
+                  placeholder="+34-"
+                  class="w100"
+                />
+              </div>
+              <br />
+              <br />
+              <div class="field mb-90">
+                <div class="fbxrow">
+                  <input
+                    type="checkbox"
+                    id="lpdFormTakePart"
+                    value="acepto"
+                    name="chklpd"
+                    required
+                  />
+                  <label for="chklpd" class="lbllpd"
+                    >Acepto permitir a Bildu Bizikidetza Birziklatu almacenar y procesar mis datos
+                    personales.*</label
+                  >
+                </div>
+                <ul class="actions special">
+                  <li class="taligncenter">
+                    <input class="boton-verde" type="submit" name="submit" value="¡Me Apunto!" />
+                  </li>
+                </ul>
+              </div>
+              <br />
+              <br />
+              <div class="field">
+                <div class="section-tittle text-center">
+                  <h2 class="titulo">SUGERENCIAS</h2>
+                </div>
+              </div>
+              <div class="dflex mb5 jcc">
+                <div class="w45 asc taligncenter">
+                  <p>¿Se te ocurre algun lugar al que podamos enviar a un equipo?</p>
+                  <p>¿Tienes alguna idea para mejorar nuestras actuaciones?</p>
+                  <p>¿Conoces a alguna persona o empresa que quiera colaborar?</p>
+                  <p>
+                    En Bildu Bizikidetza Birziklatu estamos encantados de escuchar todas vuestras
+                    sugerencias, ya que el principal beneficiado es nuestro entorno.
+                  </p>
+                </div>
+                <div class="w45">
+                  <img src="assets/img/sugiere.jpg" class="fotocoop" alt="Bombilla" />
+                </div>
+              </div>
+              <textarea name="message" id="message" rows="6"></textarea>
+              <ul class="actions special">
+                <li class="taligncenter">
+                  <input class="boton-verde" type="submit" name="submit" value="Enviar" />
+                </li>
+              </ul>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!-- END TAKE PART -->
 
-			<!-- START HELP US COMPANY -->
-			<div class="content-wrapper-full-width">
-				<div class="container">
-					<div class="section-tittle text-center">
-						<h2 class="titulo">¿ERES UNA EMPRESA? AYÚDANOS A HACERLO POSIBLE</h2>
-					</div>
-					<form method="POST" action="#">
-						<div class="fields sugerencias">
-							<label for="nempresa" class="fsize talign">Empresa</label>
-							<input type="text" name="nempresa" id="nempresa" placeholder="Tu Empresa" />
-							<label for="contacto" class="fsize talign">Persona de contacto *</label>
-							<input type="text" name="contacto" id="contacto" placeholder="Persona de contacto" required />
-							<label for="email" class="fsize talign">Email *</label>
-							<input type="email" name="email" id="emailFormCompany" placeholder="nombre@empresa.com" required />
-							<label for="telefono" class="fsize talign">Teléfono</label>
-							<input type="tel" name="telefono" id="telefonoFormCompany" placeholder="+34-" class="w100" />
-							<label for="modocol" class="fsize">Cómo vamos a colaborar</label>
-							<textarea name="message" id="modocol" rows="6"></textarea>
-						</div>
-						<div class="field mb-90">
-							<div class="fbxrow">
-								<input type="checkbox" id="lpdFormCompany" value="acepto" name="chklpd" required />
-								<label for="chklpd" class="lbllpd">Acepto permitir a Bildu Bizikidetza Birziklatu almacenar y procesar mis datos personales.*</label>
-							</div>
-							<ul class="actions special">
-								<li class="taligncenter">
-									<input class="boton-verde" type="submit" name="submit" value="¡TIENES MI APOYO!" />
-								</li>
-							</ul>
-						</div>
-					</form>
-				</div>
-			</div>
-			<!-- END HELP US COMPANY -->
+      <!-- START HELP US COMPANY -->
+      <div class="content-wrapper-full-width">
+        <div class="container">
+          <div class="section-tittle text-center">
+            <h2 class="titulo">¿ERES UNA EMPRESA? AYÚDANOS A HACERLO POSIBLE</h2>
+          </div>
+          <form method="POST" action="#">
+            <div class="fields sugerencias">
+              <label for="nempresa" class="fsize talign">Empresa</label>
+              <input type="text" name="nempresa" id="nempresa" placeholder="Tu Empresa" />
+              <label for="contacto" class="fsize talign">Persona de contacto *</label>
+              <input
+                type="text"
+                name="contacto"
+                id="contacto"
+                placeholder="Persona de contacto"
+                required
+              />
+              <label for="email" class="fsize talign">Email *</label>
+              <input
+                type="email"
+                name="email"
+                id="emailFormCompany"
+                placeholder="nombre@empresa.com"
+                required
+              />
+              <label for="telefono" class="fsize talign">Teléfono</label>
+              <input
+                type="tel"
+                name="telefono"
+                id="telefonoFormCompany"
+                placeholder="+34-"
+                class="w100"
+              />
+              <label for="modocol" class="fsize">Cómo vamos a colaborar</label>
+              <textarea name="message" id="modocol" rows="6"></textarea>
+            </div>
+            <div class="field mb-90">
+              <div class="fbxrow">
+                <input type="checkbox" id="lpdFormCompany" value="acepto" name="chklpd" required />
+                <label for="chklpd" class="lbllpd"
+                  >Acepto permitir a Bildu Bizikidetza Birziklatu almacenar y procesar mis datos
+                  personales.*</label
+                >
+              </div>
+              <ul class="actions special">
+                <li class="taligncenter">
+                  <input
+                    class="boton-verde"
+                    type="submit"
+                    name="submit"
+                    value="¡TIENES MI APOYO!"
+                  />
+                </li>
+              </ul>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!-- END HELP US COMPANY -->
 
-			<!-- START HELP US INDIVIDUAL -->
-			<div class="content-wrapper-full-width">
-				<div class="container">
-					<div class="section-tittle text-center">
-						<h2 class="titulo">¿NO PUEDES COLABORAR?</h2>
-					</div>
-					<div class="dflex mb5 jcc">
-						<div class="w45 taligncenter">
-							<p>Conviértete en Socio de Bildu Bizikidetza Birziklatu.</p>
-							<p>
-								Desde un like en redes sociales a materiales para las recogidas en las salidas, hasta ponernos en contacto con otras asociaciones para colaborar a indicarnos nuevos lugares donde
-								salir.
-							</p>
-							<p>También puedes ayudarnos haciéndote Socio Colaborador de Bildu Bizikidetza Birziklatu. Tu aportación nos ayudará a sufragar los gastos de materiales para las salidas.</p>
-							<p>En Bildu Bizikidetza Birziklatu somos una organización sin ánimo de lucro, por lo que cualquier tipo de ayuda es siempre bien recibida.</p>
-						</div>
-						<div class="w45 asc">
-							<img src="assets/img/dona.jpg" class="fotocoop" alt="Hands holding coins" />
-							<form method="POST" action="#" class="taligncenter">
-								<input class="boton-verde margin-top-colaborar" type="button" name="colabora" id="colabora" value="¡DONA!" />
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- END HELP US INDIVIDUAL -->
+      <!-- START HELP US INDIVIDUAL -->
+      <div class="content-wrapper-full-width">
+        <div class="container">
+          <div class="section-tittle text-center">
+            <h2 class="titulo">¿NO PUEDES COLABORAR?</h2>
+          </div>
+          <div class="dflex mb5 jcc">
+            <div class="w45 taligncenter">
+              <p>Conviértete en Socio de Bildu Bizikidetza Birziklatu.</p>
+              <p>
+                Desde un like en redes sociales a materiales para las recogidas en las salidas,
+                hasta ponernos en contacto con otras asociaciones para colaborar a indicarnos nuevos
+                lugares donde salir.
+              </p>
+              <p>
+                También puedes ayudarnos haciéndote Socio Colaborador de Bildu Bizikidetza
+                Birziklatu. Tu aportación nos ayudará a sufragar los gastos de materiales para las
+                salidas.
+              </p>
+              <p>
+                En Bildu Bizikidetza Birziklatu somos una organización sin ánimo de lucro, por lo
+                que cualquier tipo de ayuda es siempre bien recibida.
+              </p>
+            </div>
+            <div class="w45 asc">
+              <img src="assets/img/dona.jpg" class="fotocoop" alt="Hands holding coins" />
+              <form method="POST" action="#" class="taligncenter">
+                <input
+                  class="boton-verde margin-top-colaborar"
+                  type="button"
+                  name="colabora"
+                  id="colabora"
+                  value="¡DONA!"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END HELP US INDIVIDUAL -->
 
-			<!-- START SPONSOR DRAG LIST -->
-			<div id="patrocionadores-container" class="container">
-				<section class="customer-logos slider">
-					<div class="slide patro-div-style">
-						<img src="./assets/img/patro/FP Ekintzailetza.png" />
-					</div>
-					<div class="slide patro-div-style">
-						<img src="./assets/img/patro/GV EJ.jpg" />
-					</div>
-					<div class="slide patro-div-style">
-						<img src="./assets/img/patro/Ibaiondo Euskera-Castellano.png" />
-					</div>
-					<div class="slide patro-div-style">
-						<img src="./assets/img/patro/logo-vector-tknika.jpg" />
-					</div>
-					<div class="slide patro-div-style">
-						<img src="./assets/img/patro/Ikasenpresa.jpg" />
-					</div>
-					<div class="slide patro-div-style">
-						<img src="./assets/img/patro/logo-ekingune.png" />
-					</div>
-				</section>
-			</div>
-			<!-- END SPONSOR DRAG LIST -->
+      <!-- START SPONSOR DRAG LIST -->
+      <div id="patrocionadores-container" class="container">
+        <section class="customer-logos slider">
+          <div class="slide patro-div-style">
+            <img src="./assets/img/patro/FP Ekintzailetza.png" />
+          </div>
+          <div class="slide patro-div-style">
+            <img src="./assets/img/patro/GV EJ.jpg" />
+          </div>
+          <div class="slide patro-div-style">
+            <img src="./assets/img/patro/Ibaiondo Euskera-Castellano.png" />
+          </div>
+          <div class="slide patro-div-style">
+            <img src="./assets/img/patro/logo-vector-tknika.jpg" />
+          </div>
+          <div class="slide patro-div-style">
+            <img src="./assets/img/patro/Ikasenpresa.jpg" />
+          </div>
+          <div class="slide patro-div-style">
+            <img src="./assets/img/patro/logo-ekingune.png" />
+          </div>
+        </section>
+      </div>
+      <!-- END SPONSOR DRAG LIST -->
 
-			<!-- START ABOUT US -->
-			<div id="nosotros"></div>
-			<div class="content-wrapper-full-width support-company-area">
-				<div class="container">
-					<div class="section-tittle text-center">
-						<h2 class="titulo">SOBRE NOSOTROS</h2>
-					</div>
-					<div class="support-wrapper align-items-center">
-						<div class="left-content">
-							<div class="support-caption taligncenter">
-								<p class="pera-top">
-									El equipo de Bildu Bizikidetza Birziklatu (BBB) nació como algo sencillo en el Centro de Formación Profesional Ibaiondo, en Septiembre del año 2020. La situación era incierta debido
-									a la primera ola de la pandemia Covid 19.
-								</p>
-								<p class="pera-top">
-									Pronto se convirtió en una iniciativa solidaria con la que todos nosotros nos vimos identificados, ya que en poco tiempo comprobamos cómo nuestras playas, parques y montes quedaban
-									contaminados por desechos de guantes y mascarillas, pero... ¿por qué quedarnos ahí? No sólo había mascarillas por recoger. Papeles, plásticos, botellas, alambres, vidrios, y todo
-									tipo de desechos infestaban cada rincón de nuestra orografía, y eso, tarde o temprano, se convertiría en un grave problema.
-								</p>
-								<p class="pera-top">
-									Nos pusimos manos a la obra con un lema claro y conciso: "Limpia el mundo, limpia tu futuro", y desde entonces ponemos nuestra ilusión en este proyecto que, al final, es el proyecto
-									de futuro de todo el mundo.
-								</p>
-							</div>
-						</div>
-						<div class="right-content">
-							<!-- img -->
-							<div class="right-img">
-								<img src="assets/img/gallery/teamwork.jpg" alt="" />
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- END ABOUT US -->
+      <!-- START ABOUT US -->
+      <div id="nosotros"></div>
+      <div class="content-wrapper-full-width support-company-area">
+        <div class="container">
+          <div class="section-tittle text-center">
+            <h2 class="titulo">SOBRE NOSOTROS</h2>
+          </div>
+          <div class="support-wrapper align-items-center">
+            <div class="left-content">
+              <div class="support-caption taligncenter">
+                <p class="pera-top">
+                  El equipo de Bildu Bizikidetza Birziklatu (BBB) nació como algo sencillo en el
+                  Centro de Formación Profesional Ibaiondo, en Septiembre del año 2020. La situación
+                  era incierta debido a la primera ola de la pandemia Covid 19.
+                </p>
+                <p class="pera-top">
+                  Pronto se convirtió en una iniciativa solidaria con la que todos nosotros nos
+                  vimos identificados, ya que en poco tiempo comprobamos cómo nuestras playas,
+                  parques y montes quedaban contaminados por desechos de guantes y mascarillas,
+                  pero... ¿por qué quedarnos ahí? No sólo había mascarillas por recoger. Papeles,
+                  plásticos, botellas, alambres, vidrios, y todo tipo de desechos infestaban cada
+                  rincón de nuestra orografía, y eso, tarde o temprano, se convertiría en un grave
+                  problema.
+                </p>
+                <p class="pera-top">
+                  Nos pusimos manos a la obra con un lema claro y conciso: "Limpia el mundo, limpia
+                  tu futuro", y desde entonces ponemos nuestra ilusión en este proyecto que, al
+                  final, es el proyecto de futuro de todo el mundo.
+                </p>
+              </div>
+            </div>
+            <div class="right-content">
+              <!-- img -->
+              <div class="right-img">
+                <img src="assets/img/gallery/teamwork.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END ABOUT US -->
 
-			<!-- START FAQ -->
-			<div id="faq"></div>
-			<div class="our-cases-area section-padding30">
-				<div class="container">
-					<div class="row justify-content-center">
-						<div class="col-xl-10 col-lg-10">
-							<!-- Section Tittle -->
-							<div class="section-tittle text-center mb-80">
-								<h2 class="titulo">PREGUNTAS FRECUENTES</h2>
-								<h3 class="faqh3">¿CÓMO ORGANIZAMOS LAS QUEDADAS?</h3>
+      <!-- START FAQ -->
+      <div id="faq"></div>
+      <div class="our-cases-area section-padding30">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-xl-10 col-lg-10">
+              <!-- Section Tittle -->
+              <div class="section-tittle text-center mb-80">
+                <h2 class="titulo">PREGUNTAS FRECUENTES</h2>
+                <h3 class="faqh3">¿CÓMO ORGANIZAMOS LAS QUEDADAS?</h3>
 
-								<p class="pl-20 pr-20">
-									Tenemos varias zonas recurrentes a las que acudir, playas sobre todo, pero también hay muchas zonas localizadas a las que acudir a limpiar y ayudar. El calendario y la climatología
-									dictan las salidas con una o dos semanas de antelación. Las publicamos en la web semanalmente junto con los beneficios exclusivos de cada una de ellas
-								</p>
-								<h3 class="faqh3">¿QUÉ TIPO DE SEGURIDAD PROPORCIONAMOS? (Material, covid...)</h3>
-								<p class="pl-20 pr-20">
-									Cada persona es responsable de traer su mascarilla y una más de repuesto (por si acaso). Nosotros nos encargamos de proporcionar guantes si fueran necesarios, repartir regularmente
-									entre los voluntarios gel hidroalcohólico, bolsas, pinchos o ganchos en caso de ser necesarios (no todo el mundo puede agacharse fácilmente a recoger cosas del suelo)... en general
-									todo lo necesario para que ninguno de nuestros voluntarios tenga que traer nada de casa, a no ser que deseen hacerlo para apoyar y ayudar.
-								</p>
-								<h3 class="faqh3">¿HASTA CUÁNDO PUEDO DISFRUTAR DE MIS VENTAJAS POR PARTICIPAR?</h3>
-								<p class="pl-20 pr-20">
-									Siempre depende de cauda local que decide colaborar con nosotros. Unas veces son descentos, algún detalle de agradecimiento por cuidar su entorno... En cada salida prevista
-									informaremos de las ventajas de las que dispondremos y cuánto duran, ya que pueden variar. Su tiempo de validez no depende de nosotros
-								</p>
-								<h3 class="faqh3">¿CÓMO ME PUEDO APUNTAR O COLABORAR CON VOSOTROS?</h3>
-								<p class="pl-20 pr-20">
-									Sólo hay que apuntarse a traves del formulario para que contemos contigo y podamos, entre todos, disfrutar de un día diferente con un final satisfactorio asegurado. Nada es
-									comparable a ver el antes y el después de un buen rato de trabajo.
-								</p>
-								<p class="pl-20 pr-20">
-									También es posible colaborar de otras formas: aportar material siempre es bienvenido, difusion en redes sociales, boca a boca sobre nuestra iniciativa, donaciones económicas (siempre
-									por la web, nunca en metálico), transporte al punto limpio de los desechos recogidos, etc.
-								</p>
-								<h3 class="faqh3">¿CÓMO PUEDO PEDIR QUE SE LIMPIE UNA ZONA QUE CONOZCO?</h3>
-								<p class="pl-20 pr-20">
-									En la web existe un apartado de sugerencias en el que puedes notificarnos un lugar que consideres que requiere de nuestra atención. Nosotros hablaremos con los ayuntamientos y
-									autoridades de la zona para pedir los permisos necesarios y poner un equipo de voluntarios en marcha cuanto antes
-								</p>
-								<h3 class="faqh3">POLÍTICAS DE TRANSPARENCIA.</h3>
-								<p class="pl-20 pr-20">
-									Todo lo que recaudamos está destinado a adquirir material y medios para esta iniciativa solidaria. Nosotros no ganamos nada más allá de la satisfacción de ver zonas recuperadas de
-									basura
-								</p>
-								<h3 class="faqh3">POLÍTICA DE DATOS.</h3>
-								<p class="pl-20 pr-20">
-									La protección de los datos de nuestros voluntarios es muy importante, por ello os invitamos a leerla a través de este link
-									<a class="linkA" href="./privacidad.html" target="_blank">link a política de datos aquí</a>.
-								</p>
-								<h3 class="faqh3">¿QUÉ PASA CON LAS FOTOS QUE SE SACAN? ¿SE MANTENDRÁN EN LA WEB POR SIEMPRE? ¿Y SI NO QUIERO SALIR EN ELLAS?</h3>
-								<p class="pl-20 pr-20">
-									Siempre sacamos fotos y/o vídeos a lo largo de las salidas que realizamos, pero si alguna persona no desea salir en ellas sólo debe comunicarlo y haremos todo lo posible para que no
-									aparezca en las mismas o quede pixelada. Las fotos se guardan durante un año y cualquiera que haya participado en las quedadas que realizamos podrá acceder a ellas. Después quedan
-									archivadas.
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- END FAQ -->
-		</main>
-		<!-- END MAIN -->
+                <p class="pl-20 pr-20">
+                  Tenemos varias zonas recurrentes a las que acudir, playas sobre todo, pero también
+                  hay muchas zonas localizadas a las que acudir a limpiar y ayudar. El calendario y
+                  la climatología dictan las salidas con una o dos semanas de antelación. Las
+                  publicamos en la web semanalmente junto con los beneficios exclusivos de cada una
+                  de ellas
+                </p>
+                <h3 class="faqh3">¿QUÉ TIPO DE SEGURIDAD PROPORCIONAMOS? (Material, covid...)</h3>
+                <p class="pl-20 pr-20">
+                  Cada persona es responsable de traer su mascarilla y una más de repuesto (por si
+                  acaso). Nosotros nos encargamos de proporcionar guantes si fueran necesarios,
+                  repartir regularmente entre los voluntarios gel hidroalcohólico, bolsas, pinchos o
+                  ganchos en caso de ser necesarios (no todo el mundo puede agacharse fácilmente a
+                  recoger cosas del suelo)... en general todo lo necesario para que ninguno de
+                  nuestros voluntarios tenga que traer nada de casa, a no ser que deseen hacerlo
+                  para apoyar y ayudar.
+                </p>
+                <h3 class="faqh3">¿HASTA CUÁNDO PUEDO DISFRUTAR DE MIS VENTAJAS POR PARTICIPAR?</h3>
+                <p class="pl-20 pr-20">
+                  Siempre depende de cauda local que decide colaborar con nosotros. Unas veces son
+                  descentos, algún detalle de agradecimiento por cuidar su entorno... En cada salida
+                  prevista informaremos de las ventajas de las que dispondremos y cuánto duran, ya
+                  que pueden variar. Su tiempo de validez no depende de nosotros
+                </p>
+                <h3 class="faqh3">¿CÓMO ME PUEDO APUNTAR O COLABORAR CON VOSOTROS?</h3>
+                <p class="pl-20 pr-20">
+                  Sólo hay que apuntarse a traves del formulario para que contemos contigo y
+                  podamos, entre todos, disfrutar de un día diferente con un final satisfactorio
+                  asegurado. Nada es comparable a ver el antes y el después de un buen rato de
+                  trabajo.
+                </p>
+                <p class="pl-20 pr-20">
+                  También es posible colaborar de otras formas: aportar material siempre es
+                  bienvenido, difusion en redes sociales, boca a boca sobre nuestra iniciativa,
+                  donaciones económicas (siempre por la web, nunca en metálico), transporte al punto
+                  limpio de los desechos recogidos, etc.
+                </p>
+                <h3 class="faqh3">¿CÓMO PUEDO PEDIR QUE SE LIMPIE UNA ZONA QUE CONOZCO?</h3>
+                <p class="pl-20 pr-20">
+                  En la web existe un apartado de sugerencias en el que puedes notificarnos un lugar
+                  que consideres que requiere de nuestra atención. Nosotros hablaremos con los
+                  ayuntamientos y autoridades de la zona para pedir los permisos necesarios y poner
+                  un equipo de voluntarios en marcha cuanto antes
+                </p>
+                <h3 class="faqh3">POLÍTICAS DE TRANSPARENCIA.</h3>
+                <p class="pl-20 pr-20">
+                  Todo lo que recaudamos está destinado a adquirir material y medios para esta
+                  iniciativa solidaria. Nosotros no ganamos nada más allá de la satisfacción de ver
+                  zonas recuperadas de basura
+                </p>
+                <h3 class="faqh3">POLÍTICA DE DATOS.</h3>
+                <p class="pl-20 pr-20">
+                  La protección de los datos de nuestros voluntarios es muy importante, por ello os
+                  invitamos a leerla a través de este link
+                  <a class="linkA" href="./privacidad.html" target="_blank"
+                    >link a política de datos aquí</a
+                  >.
+                </p>
+                <h3 class="faqh3">
+                  ¿QUÉ PASA CON LAS FOTOS QUE SE SACAN? ¿SE MANTENDRÁN EN LA WEB POR SIEMPRE? ¿Y SI
+                  NO QUIERO SALIR EN ELLAS?
+                </h3>
+                <p class="pl-20 pr-20">
+                  Siempre sacamos fotos y/o vídeos a lo largo de las salidas que realizamos, pero si
+                  alguna persona no desea salir en ellas sólo debe comunicarlo y haremos todo lo
+                  posible para que no aparezca en las mismas o quede pixelada. Las fotos se guardan
+                  durante un año y cualquiera que haya participado en las quedadas que realizamos
+                  podrá acceder a ellas. Después quedan archivadas.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END FAQ -->
+    </main>
+    <!-- END MAIN -->
 
-		<!-- START FOOTER -->
-		<footer>
-			<div class="footer-wrapper">
-				<div class="footer-area footer-padding">
-					<div class="container">
-						<div class="row justify-content-between">
-							<div class="col-xl-4 col-lg-3 col-md-8 col-sm-8">
-								<div class="single-footer-caption mb-50">
-									<div class="single-footer-caption mb-30">
-										<div class="footer-logo mb-35"></div>
-										<div class="footer-tittle">
-											<div class="footer-pera">
-												<div class="row1">
-													<div class="col-md-12">
-														<h3 class="h3footer">
-															<li>
-																<img class="locali" src="./assets/img/localizacion.png" alt="Localizacion Icon" />
-																<span>Localizaci&oacute;n:</span>
-															</li>
-														</h3>
-													</div>
-													<div class="col-md-12">
-														<iframe
-															src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2902.519406813755!2d-3.013520485005573!3d43.32431908165379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4e5a2c1806bf27%3A0x7d341fe4256a820!2sVenancio%20Etxebarria%20Kalea%2C%2018%2C%2048930%20Getxo%2C%20Bizkaia!5e0!3m2!1ses!2ses!4v1608570619268!5m2!1ses!2ses"
-															width="300"
-															height="250"
-															frameborder="0"
-															style="border: 0"
-															allowfullscreen=""
-															aria-hidden="false"
-															tabindex="0"
-														></iframe>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-xl-3 col-lg-4 col-md-4 col-sm-4">
-								<div class="single-footer-caption mb-50">
-									<div class="footer-tittle">
-										<ul>
-											<li>
-												<h3 class="h3footer">
-													<img class="tlf" src="./assets/img/telefono.png" alt="Telefono Logo" />
-													<span>Teléfono:</span><br />
-													<span>+34 946-987-654</span>
-												</h3>
-											</li>
-											<li>
-												<h3 class="h3footer">
-													<img class="mail" src="./assets/img/email.png" />
-													<span>E-mail:</span><br />
-													<span>taldeBBB@gmail.com</span>
-												</h3>
-											</li>
-											<li>
-												<h3 class="h3footer">
-													<img class="dire" src="./assets/img/direccion.png" />
-													<span>Dirección:</span><br />
-													<span>Venancio Etxebarria Kalea, 18, 48930 Las Arenas</span>
-												</h3>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
-								<div class="single-footer-caption mb-50">
-									<div class="footer-tittle">
-										<ul>
-											<li>
-												<a href="#faq">Preguntas Frecuentes</a>
-											</li>
-											<li>
-												<span>Copyright &copy;</span>
-												<span>
-													<script>
-														document.write(new Date().getFullYear());
-													</script>
-												</span>
-												<span>
-													<span>All rights reserved | This template is made with</span>
-													<i class="fa fa-heart" aria-hidden="true"></i>
-													<span>by</span>
-													<a href="https://colorlib.com" target="_blank">
-														<span>Colorlib</span>
-													</a>
-												</span>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<div class="col-xl-3 col-lg-4 col-md-6 col-sm-4">
-								<div class="single-footer-caption mb-50">
-									<div class="footer-tittle">
-										<h4>RRSS</h4>
-										<ul>
-											<div class="row">
-												<div class="col-md-2 col-sm-2">
-													<li>
-														<a href="https://www.facebook.com/" target="_blank">
-															<img class="imagen1" src="./assets/img/facebook.png" alt="Facebook Icon" />
-														</a>
-													</li>
-												</div>
-												<div class="col-6 col-md-4 col-sm-2">
-													<li>
-														<a href="https://www.twitter.com/" target="_blank"> <img class="imagen2" src="./assets/img/twitter.png" alt="Twitter Icon" /></a>
-													</li>
-												</div>
-											</div>
-											<div class="row">
-												<div class="col-md-2 col-sm-2">
-													<li>
-														<a href="https://www.linkedin.com/" target="_blank"> <img class="imagen3" src="./assets/img/linkedin.png" alt="Linkedin Icon" /></a>
-													</li>
-												</div>
-												<div class="col-md-2 col-sm-2">
-													<li>
-														<a href="https://www.instagram.com/" target="_blank"> <img class="imagen4" src="./assets/img/instagram.png" alt="Instagram Icon" /></a>
-													</li>
-												</div>
-											</div>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="footer-bottom-area">
-					<div class="container">
-						<div class="footer-border">
-							<div class="row d-flex align-items-center">
-								<div class="col-xl-12">
-									<div class="footer-copy-right text-center">
-										<span>Copyright &copy;</span>
-										<span>
-											<script>
-												document.write(new Date().getFullYear());
-											</script>
-										</span>
-										<span>
-											<span>All rights reserved | This website was made by Bildu Bizikidetza Birziklatu with</span>
-											<i class="fa fa-heart" aria-hidden="true"></i>
-										</span>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</footer>
-		<!-- END FOOTER -->
+    <!-- START FOOTER -->
+    <footer>
+      <div class="footer-wrapper">
+        <div class="footer-area footer-padding">
+          <div class="container">
+            <div class="row justify-content-between">
+              <div class="col-xl-4 col-lg-3 col-md-8 col-sm-8">
+                <div class="single-footer-caption mb-50">
+                  <div class="single-footer-caption mb-30">
+                    <div class="footer-logo mb-35"></div>
+                    <div class="footer-tittle">
+                      <div class="footer-pera">
+                        <div class="row1">
+                          <div class="col-md-12">
+                            <h3 class="h3footer">
+                              <li>
+                                <img
+                                  class="locali"
+                                  src="./assets/img/localizacion.png"
+                                  alt="Localizacion Icon"
+                                />
+                                <span>Localizaci&oacute;n:</span>
+                              </li>
+                            </h3>
+                          </div>
+                          <div class="col-md-12">
+                            <iframe
+                              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2902.519406813755!2d-3.013520485005573!3d43.32431908165379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4e5a2c1806bf27%3A0x7d341fe4256a820!2sVenancio%20Etxebarria%20Kalea%2C%2018%2C%2048930%20Getxo%2C%20Bizkaia!5e0!3m2!1ses!2ses!4v1608570619268!5m2!1ses!2ses"
+                              width="300"
+                              height="250"
+                              frameborder="0"
+                              style="border: 0"
+                              allowfullscreen=""
+                              aria-hidden="false"
+                              tabindex="0"
+                            ></iframe>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-4 col-md-4 col-sm-4">
+                <div class="single-footer-caption mb-50">
+                  <div class="footer-tittle">
+                    <ul>
+                      <li>
+                        <h3 class="h3footer">
+                          <img class="tlf" src="./assets/img/telefono.png" alt="Telefono Logo" />
+                          <span>Teléfono:</span><br />
+                          <span>+34 946-987-654</span>
+                        </h3>
+                      </li>
+                      <li>
+                        <h3 class="h3footer">
+                          <img class="mail" src="./assets/img/email.png" />
+                          <span>E-mail:</span><br />
+                          <span>taldeBBB@gmail.com</span>
+                        </h3>
+                      </li>
+                      <li>
+                        <h3 class="h3footer">
+                          <img class="dire" src="./assets/img/direccion.png" />
+                          <span>Dirección:</span><br />
+                          <span>Venancio Etxebarria Kalea, 18, 48930 Las Arenas</span>
+                        </h3>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+                <div class="single-footer-caption mb-50">
+                  <div class="footer-tittle">
+                    <ul>
+                      <li>
+                        <a href="#faq">Preguntas Frecuentes</a>
+                      </li>
+                      <li>
+                        <span>Copyright &copy;</span>
+                        <span>
+                          <script>
+                            document.write(new Date().getFullYear());
+                          </script>
+                        </span>
+                        <span>
+                          <span>All rights reserved | This template is made with</span>
+                          <i class="fa fa-heart" aria-hidden="true"></i>
+                          <span>by</span>
+                          <a href="https://colorlib.com" target="_blank">
+                            <span>Colorlib</span>
+                          </a>
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-4 col-md-6 col-sm-4">
+                <div class="single-footer-caption mb-50">
+                  <div class="footer-tittle">
+                    <h4>RRSS</h4>
+                    <ul>
+                      <div class="row">
+                        <div class="col-3 col-lg-3">
+                          <li>
+                            <a href="https://www.facebook.com/" target="_blank">
+                              <img
+                                class="imagen1"
+                                src="./assets/img/facebook.png"
+                                alt="Facebook Icon"
+                              />
+                            </a>
+                          </li>
+                        </div>
+                        <div class="col-3 col-lg-7">
+                          <li>
+                            <a href="https://www.twitter.com/" target="_blank">
+                              <img
+                                class="imagen2"
+                                src="./assets/img/twitter.png"
+                                alt="Twitter Icon"
+                            /></a>
+                          </li>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-3 col-lg-3">
+                          <li>
+                            <a href="https://www.linkedin.com/" target="_blank">
+                              <img
+                                class="imagen3"
+                                src="./assets/img/linkedin.png"
+                                alt="Linkedin Icon"
+                            /></a>
+                          </li>
+                        </div>
+                        <div class="col-3 col-lg-6">
+                          <li>
+                            <a href="https://www.instagram.com/" target="_blank">
+                              <img
+                                class="imagen4"
+                                src="./assets/img/instagram.png"
+                                alt="Instagram Icon"
+                            /></a>
+                          </li>
+                        </div>
+                      </div>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom-area">
+          <div class="container">
+            <div class="footer-border">
+              <div class="row d-flex align-items-center">
+                <div class="col-xl-12">
+                  <div class="footer-copy-right text-center">
+                    <span>Copyright &copy;</span>
+                    <span>
+                      <script>
+                        document.write(new Date().getFullYear());
+                      </script>
+                    </span>
+                    <span>
+                      <span
+                        >All rights reserved | This website was made by Bildu Bizikidetza Birziklatu
+                        with</span
+                      >
+                      <i class="fa fa-heart" aria-hidden="true"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- END FOOTER -->
 
-		<!-- START FLOATING DONATE BUTTON -->
-		<div id="back-top">
-			<a title="Make a donation" href="#">Haz una donación</a>
-		</div>
-		<!-- END FLOATING DONATE BUTTON -->
+    <!-- START FLOATING DONATE BUTTON -->
+    <div id="back-top">
+      <a title="Make a donation" href="#">Haz una donación</a>
+    </div>
+    <!-- END FLOATING DONATE BUTTON -->
 
-		<!-- JS here -->
+    <!-- JS here -->
 
-		<!-- Jquery, Popper, Bootstrap -->
-		<script src="./assets/js/vendor/jquery-3.5.1.min.js"></script>
-		<script src="./assets/js/popper.min.js"></script>
-		<script src="./assets/js/bootstrap.min.js"></script>
+    <!-- Jquery, Popper, Bootstrap -->
+    <script src="./assets/js/vendor/jquery-3.5.1.min.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
 
-		<!-- Modernizr -->
-		<script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+    <!-- Modernizr -->
+    <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
 
-		<!-- Jquery Mobile Menu -->
-		<script src="./assets/js/jquery.slicknav.min.js"></script>
+    <!-- Jquery Mobile Menu -->
+    <script src="./assets/js/jquery.slicknav.min.js"></script>
 
-		<!-- Jquery Slick , Owl-Carousel Plugins -->
-		<script src="./assets/js/owl.carousel.min.js"></script>
-		<script src="./assets/js/slick.min.js"></script>
+    <!-- Jquery Slick , Owl-Carousel Plugins -->
+    <script src="./assets/js/owl.carousel.min.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
 
-		<!-- One Page, Animated-HeadLin -->
-		<script src="./assets/js/animated.headline.js"></script>
-		<script src="./assets/js/jquery.magnific-popup.js"></script>
+    <!-- One Page, Animated-HeadLin -->
+    <script src="./assets/js/animated.headline.js"></script>
+    <script src="./assets/js/jquery.magnific-popup.js"></script>
 
-		<!-- Date Picker -->
-		<script src="./assets/js/gijgo.min.js"></script>
+    <!-- Date Picker -->
+    <script src="./assets/js/gijgo.min.js"></script>
 
-		<!-- Nice-select, sticky -->
-		<script src="./assets/js/jquery.sticky.js"></script>
+    <!-- Nice-select, sticky -->
+    <script src="./assets/js/jquery.sticky.js"></script>
 
-		<!-- counter , waypoint,Hover Direction -->
-		<script src="./assets/js/jquery.counterup.min.js"></script>
-		<script src="./assets/js/waypoints.min.js"></script>
-		<script src="./assets/js/jquery.countdown.min.js"></script>
-		<script src="./assets/js/hover-direction-snake.min.js"></script>
+    <!-- counter , waypoint,Hover Direction -->
+    <script src="./assets/js/jquery.counterup.min.js"></script>
+    <script src="./assets/js/waypoints.min.js"></script>
+    <script src="./assets/js/jquery.countdown.min.js"></script>
+    <script src="./assets/js/hover-direction-snake.min.js"></script>
 
-		<!-- contact js -->
-		<script src="./assets/js/contact.js"></script>
-		<script src="./assets/js/jquery.form.js"></script>
-		<script src="./assets/js/jquery.validate.min.js"></script>
-		<script src="./assets/js/mail-script.js"></script>
+    <!-- contact js -->
+    <script src="./assets/js/contact.js"></script>
+    <script src="./assets/js/jquery.form.js"></script>
+    <script src="./assets/js/jquery.validate.min.js"></script>
+    <script src="./assets/js/mail-script.js"></script>
 
-		<!-- Jquery Plugins, main Jquery -->
-		<script src="./assets/js/plugins.js"></script>
-		<script src="./assets/js/main.js"></script>
+    <!-- Jquery Plugins, main Jquery -->
+    <script src="./assets/js/plugins.js"></script>
+    <script src="./assets/js/main.js"></script>
 
-		<!-- Gallery -->
-		<script src="./assets/js/gallery/galeria.js"></script>
+    <!-- Gallery -->
+    <script src="./assets/js/gallery/galeria.js"></script>
 
-		<!-- Patrocionadores -->
-		<script src="./assets/js/patro/patro.js"></script>
+    <!-- Patrocionadores -->
+    <script src="./assets/js/patro/patro.js"></script>
 
-		<!-- Modal -->
-		<script src="./assets/modal/modal.js"></script>
-		<script src="./assets/modal/jquery-ui.min.js"></script>
-	</body>
+    <!-- Modal -->
+    <script src="./assets/modal/modal.js"></script>
+    <script src="./assets/modal/jquery-ui.min.js"></script>
+  </body>
 </html>

@@ -6503,3 +6503,7 @@ body {
 .content-wrapper-full-width {
   width: 100%;
 }
+.imgtipo {
+  width: 30px;
+  height: 30px;
+}
