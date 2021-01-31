@@ -161,6 +161,7 @@ los del formulario son negro para dar una sensación con el negro de más seried
 con el resto 
 se aprovecha el hecho de que utilizamos el azul en el logo para los titulos */
 .titulo {
+ 
   font-family: "Arial black", sans-serif;
   color: #0061a9;
   margin-top: 0px;
@@ -6502,4 +6503,9 @@ body {
 
 .content-wrapper-full-width {
   width: 100%;
+}
+.ancla{
+  display: block;
+  margin-top:  -131px;
+  padding-top: 131px;
 }
