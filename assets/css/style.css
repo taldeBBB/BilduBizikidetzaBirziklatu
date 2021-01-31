@@ -6507,3 +6507,9 @@ body {
   width: 30px;
   height: 30px;
 }
+
+.ancla{
+  display: block;
+  margin-top:  -131px;
+  padding-top: 131px;
+}
