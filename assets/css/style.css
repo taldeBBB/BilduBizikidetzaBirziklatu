@@ -169,10 +169,12 @@ se aprovecha el hecho de que utilizamos el azul en el logo para los titulos */
   text-transform: normal;
 }
 .noticias-contenedor h2 {
-  font-size: 28px;
+  font-size: 33px;
 }
 .noticias-contenedor h3 {
-  color: #09cc7f;
+  color: #189b66;
+  font-size:25px;
+  text-decoration:underline
 }
 /* modificación del tamaño ya que era bastante pequeño en comparación del h2 */
 h3 {
@@ -1818,6 +1820,7 @@ footer li {
 
 h3.h3footer {
   color: white;
+  font-family:Tahoma;
 }
 .mail {
   width: 30px;
@@ -2212,16 +2215,26 @@ footer .row2 {
   .section-tittle h2 {
     font-size: 38px;
   }
+  .noticias-contenedor-general h2{
+    font-size:28px;
+  }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .section-tittle h2 {
+    font-size: 35px;
+  }
+  .noticias-contenedor-general h2 {
     font-size: 35px;
   }
 }
 @media (max-width: 575px) {
   .section-tittle h2 {
     /* text-align: left; */
-    font-size: 24px;
+    font-size: 28px;
+  }
+  .noticias-contenedor-general h2 {
+   
+    font-size: 28px;
   }
 }
 .section-bg {
@@ -2522,6 +2535,15 @@ main {
 }
 .noticias-contenedor-general {
   display: flex;
+}/* cambiar titulos */
+@media  only screen and (min-width: 576px) and (max-width: 767px){
+  .contenido-noticias h3{
+    font-size:22px;
+  }}
+  @media (max-width: 575px){
+    .contenido-noticias h3{
+      font-size:21px;
+  }
 }
 .noticias-contenedor {
   display: flex;
@@ -3021,7 +3043,7 @@ main {
 .support-company-area .support-wrapper .left-content .support-caption p.pera-top {
   font-size: 18px;
   font-weight: 400;
-  color: #425140;
+  /*color: #425140;*/
 }
 .support-company-area .support-wrapper .right-content {
   width: 40%;
@@ -3404,7 +3426,7 @@ main {
   font-size: 20px;
   /*margin-bottom: 40px;*/
   font-weight: 500;
-  font-family: "Montserrat", sans-serif;
+  font-family: Tahoma;
 }
 .footer-area .footer-tittle ul li {
   margin-bottom: 15px;
